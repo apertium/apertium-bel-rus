@@ -17,6 +17,7 @@
 /apertium-bel-rus.rus-bel.t3x -text
 /autogen.sh -text
 /configure.ac -text
+dev/parse_korpus.py -text
 /modes.xml -text
 texts/text-bel.txt -text svneol=unset#application/octet-stream
 texts/text-rus.txt -text svneol=unset#application/octet-stream
