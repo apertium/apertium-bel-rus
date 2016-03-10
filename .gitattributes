@@ -17,6 +17,9 @@
 /apertium-bel-rus.rus-bel.t3x -text
 /autogen.sh -text
 /configure.ac -text
+dev/BelarusianTagsAnalyzer/BelarusianTagsAnalyzer.py -text
+dev/BelarusianTagsAnalyzer/BelarusianTagsAnalyzerTests.py -text
+dev/BelarusianTagsAnalyzer/example.py -text
 dev/parse_korpus.py -text
 /modes.xml -text
 texts/text-bel.txt -text svneol=unset#application/octet-stream
