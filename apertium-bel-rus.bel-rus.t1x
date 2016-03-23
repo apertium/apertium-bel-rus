@@ -152,6 +152,7 @@
   <def-attr n="a_num">
      <attr-item tags="num"/>
      <attr-item tags="num.coll"/>
+     <attr-item tags="num.percent"/> <!-- numbers with percent -->
      <attr-item tags="n"/> <!-- for кількадесят-->
   </def-attr>
 
