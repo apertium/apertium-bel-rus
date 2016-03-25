@@ -20,6 +20,7 @@
 dev/BelarusianTagsAnalyzer/BelarusianTagsAnalyzer.py -text
 dev/BelarusianTagsAnalyzer/BelarusianTagsAnalyzerTests.py -text
 dev/BelarusianTagsAnalyzer/example.py -text
+dev/make_bidix.py -text
 dev/parse_korpus.py -text
 dev/process_nouns.py -text
 dev/testvoc/bidix-unknowns.sh -text
