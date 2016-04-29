@@ -20,9 +20,13 @@
 dev/BelarusianTagsAnalyzer/BelarusianTagsAnalyzer.py -text
 dev/BelarusianTagsAnalyzer/BelarusianTagsAnalyzerTests.py -text
 dev/BelarusianTagsAnalyzer/example.py -text
-dev/make_bidix.py -text
+dev/coverage/bel-rus_trim_cov.sh -text
+dev/coverage/rus-bel_trim_cov.sh -text
+dev/make_bidix_n.py -text
+dev/n_list.txt -text
+dev/n_mp_translation.txt -text svneol=unset#application/octet-stream
 dev/parse_korpus.py -text
-dev/process_nouns.py -text
+dev/process_n.py -text
 dev/testvoc/bidix-unknowns.sh -text
 dev/testvoc/generation.sh -text
 dev/testvoc/streamparser.py -text
