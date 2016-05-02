@@ -20,6 +20,7 @@
 dev/BelarusianTagsAnalyzer/BelarusianTagsAnalyzer.py -text
 dev/BelarusianTagsAnalyzer/BelarusianTagsAnalyzerTests.py -text
 dev/BelarusianTagsAnalyzer/example.py -text
+dev/adv_list.txt -text
 dev/coverage/bel-rus_trim_cov.sh -text
 dev/coverage/rus-bel_trim_cov.sh -text
 dev/make_bidix_n.py -text
