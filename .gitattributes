@@ -32,5 +32,11 @@ dev/testvoc/bidix-unknowns.sh -text
 dev/testvoc/generation.sh -text
 dev/testvoc/streamparser.py -text
 /modes.xml -text
+texts/article1.bel.txt -text svneol=unset#application/octet-stream
+texts/article1.rus.txt -text svneol=unset#application/octet-stream
+texts/evaluation_1/article1.bel.mt.txt -text svneol=unset#application/octet-stream
+texts/evaluation_1/article1.bel.postedit.txt -text svneol=unset#application/octet-stream
+texts/evaluation_1/article1.rus.mt.txt -text svneol=unset#application/octet-stream
+texts/evaluation_1/article1.rus.postedit.txt -text svneol=unset#application/octet-stream
 texts/text-bel.txt -text svneol=unset#application/octet-stream
 texts/text-rus.txt -text svneol=unset#application/octet-stream
