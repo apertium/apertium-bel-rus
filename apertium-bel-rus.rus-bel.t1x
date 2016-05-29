@@ -79,6 +79,12 @@
      <attr-item tags="prn.itg"/>
   </def-attr>
 
+  <def-attr n="a_det">
+     <attr-item tags="det"/>
+     <attr-item tags="det.ord"/>
+     <attr-item tags="det.pos"/>
+  </def-attr>
+
   <def-attr n="tns">
      <attr-item tags="pri"/>
      <attr-item tags="imp"/>
@@ -132,11 +138,41 @@
 <section-rules>
 <!-- Sintagmas nominales -->
 
-  <rule>
-     <pattern>
-       <pattern-item n="nom"/>
-     </pattern>
-     <action>
+  <rule comment="det">
+    <pattern>
+      <pattern-item n="det"/>
+    </pattern>
+    <action>
+     <choose>
+      <when>
+        <test><equal><clip pos="1" side="tl" part="cas"/><lit-tag v="prp"/></equal></test>
+        <let><clip pos="1" side="tl" part="cas"/><lit-tag v="loc"/></let>
+      </when>
+      </choose>
+      <out>
+        <chunk name="nom" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="SDET"/></tag>
+          </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_det"/>
+            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="anim"/>
+            <clip pos="1" side="tl" part="nbr"/>
+            <clip pos="1" side="tl" part="cas"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+        </chunk>
+      </out>
+    </action>
+  </rule>
+
+  <rule comment="nom">
+    <pattern>
+      <pattern-item n="nom"/>
+    </pattern>
+    <action>
        <choose>
          <when>
            <test>
@@ -151,24 +187,24 @@
            </let>
          </when>
        </choose>
-       <out>
-         <chunk name="nom" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="SN"/></tag>
-             <tag><clip pos="1" side="tl" part="gen"/></tag>
-           </tags>
-           <lu>
-               <clip pos="1" side="tl" part="lemh"/>
-               <clip pos="1" side="tl" part="a_nom"/>
-               <clip pos="1" side="tl" part="gen"/>
-               <clip pos="1" side="tl" part="anim"/>
-               <clip pos="1" side="tl" part="nbr"/>
-               <clip pos="1" side="tl" part="cas"/>
-               <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
-       </out>
-     </action>
+      <out>
+        <chunk name="nom" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="SN"/></tag>
+            <tag><clip pos="1" side="tl" part="gen"/></tag>
+          </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_nom"/>
+            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="anim"/>
+            <clip pos="1" side="tl" part="nbr"/>
+            <clip pos="1" side="tl" part="cas"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+        </chunk>
+      </out>
+    </action>
   </rule>
 
   <!--
