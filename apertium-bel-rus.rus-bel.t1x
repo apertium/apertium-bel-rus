@@ -99,6 +99,7 @@
      <attr-item tags="det.ord"/>
      <attr-item tags="det.pos"/>
      <attr-item tags="det.dem"/>
+     <attr-item tags="det.ind"/>
   </def-attr>
 
   <def-attr n="tns">
