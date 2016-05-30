@@ -13,7 +13,14 @@
      <cat-item tags="vbser.*"/>
   </def-cat>
   <def-cat n="prn">
-     <cat-item tags="prn.*"/>
+     <cat-item tags="prn.dem.*"/>
+     <cat-item tags="prn.itg.*"/>
+     <cat-item tags="prn.rel.*"/>
+     <cat-item tags="prn.ind.*"/>
+     <cat-item tags="prn.def.*"/>
+     <cat-item tags="prn.ref.*"/>
+     <cat-item tags="prn.neg.*"/>
+     <cat-item tags="prn.pers.*"/>
   </def-cat>
   <def-cat n="adj">
      <cat-item tags="adj.*"/>
@@ -77,12 +84,21 @@
   <def-attr n="a_prn">
      <attr-item tags="prn"/>
      <attr-item tags="prn.itg"/>
+     <attr-item tags="prn.pers"/>
+     <attr-item tags="prn.neg"/>
+     <attr-item tags="prn.def"/>
+     <attr-item tags="prn.ref"/>
+     <attr-item tags="prn.ind"/>
+     <attr-item tags="prn.dem"/>
+     <attr-item tags="prn.rel"/>
+     <attr-item tags="prn.qnt"/>
   </def-attr>
 
   <def-attr n="a_det">
      <attr-item tags="det"/>
      <attr-item tags="det.ord"/>
      <attr-item tags="det.pos"/>
+     <attr-item tags="det.dem"/>
   </def-attr>
 
   <def-attr n="tns">
@@ -97,6 +113,7 @@
      <attr-item tags="m"/>
      <attr-item tags="f"/>
      <attr-item tags="nt"/>
+     <attr-item tags="mf"/>
      <attr-item tags="mfn"/>
   </def-attr>
 
@@ -115,6 +132,7 @@
 
   <def-attr n="nbr">
      <attr-item tags="sg"/>
+     <attr-item tags="sp"/>
      <attr-item tags="pl"/>
   </def-attr>
 
@@ -152,7 +170,7 @@
       <out>
         <chunk name="nom" case="caseFirstWord">
           <tags>
-            <tag><lit-tag v="SDET"/></tag>
+            <tag><lit-tag v="NMOD"/></tag>
           </tags>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
@@ -162,6 +180,30 @@
             <clip pos="1" side="tl" part="nbr"/>
             <clip pos="1" side="tl" part="cas"/>
             <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+        </chunk>
+      </out>
+    </action>
+  </rule>
+
+  <rule comment="prn">
+    <pattern>
+      <pattern-item n="prn"/>
+    </pattern>
+    <action>
+     <choose>
+      <when>
+        <test><equal><clip pos="1" side="tl" part="cas"/><lit-tag v="prp"/></equal></test>
+        <let><clip pos="1" side="tl" part="cas"/><lit-tag v="loc"/></let>
+      </when>
+      </choose>
+      <out>
+        <chunk name="nom" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="SP"/></tag>
+          </tags>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
           </lu>
         </chunk>
       </out>
