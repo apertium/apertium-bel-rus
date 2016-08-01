@@ -20,7 +20,7 @@
       <program name="lt-proc -b">
         <file name="bel-rus.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="bel-rus.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
@@ -170,7 +170,7 @@
       <program name="lt-proc -b">
         <file name="bel-rus.autobil.bin"/>
       </program>
-      <program name="lrx-proc -t">
+      <program name="lrx-proc -m -t">
         <file name="bel-rus.autolex.bin"/>
       </program>
     </pipeline>
@@ -193,7 +193,7 @@
       <program name="lt-proc -b">
         <file name="bel-rus.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="bel-rus.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b -t">
@@ -220,7 +220,7 @@
       <program name="lt-proc -b">
         <file name="bel-rus.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="bel-rus.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
@@ -251,7 +251,7 @@
       <program name="lt-proc -b">
         <file name="bel-rus.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="bel-rus.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
@@ -288,7 +288,7 @@
       <program name="lt-proc -b">
         <file name="rus-bel.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="rus-bel.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
@@ -303,10 +303,13 @@
         <file name="apertium-bel-rus.rus-bel.t3x"/>
         <file name="rus-bel.t3x.bin"/>
       </program>
+      <program name="apertium-transfer -n">
+        <file name="apertium-bel-rus.rus-bel.t4x"/>
+        <file name="rus-bel.t4x.bin"/>
+      </program>
       <program name="lt-proc $1">
         <file name="rus-bel.autogen.bin"/>
       </program>
-
       <program name="lt-proc -p">
         <file name="rus-bel.autopgen.bin"/>
       </program>
@@ -330,6 +333,9 @@
       <program name="lt-proc -b">
         <file name="rus-bel.autobil.bin"/>
       </program>
+      <program name="lrx-proc -m">
+        <file name="rus-bel.autolex.bin"/>
+      </program>
       <program name="apertium-transfer -b">
         <file name="apertium-bel-rus.rus-bel.t1x"/>
         <file name="rus-bel.t1x.bin"/>
@@ -341,6 +347,10 @@
       <program name="apertium-postchunk">
         <file name="apertium-bel-rus.rus-bel.t3x"/>
         <file name="rus-bel.t3x.bin"/>
+      </program>
+      <program name="apertium-transfer -n">
+        <file name="apertium-bel-rus.rus-bel.t4x"/>
+        <file name="rus-bel.t4x.bin"/>
       </program>
       <program name="lt-proc -d">
         <file name="rus-bel.autogen.bin"/>
@@ -438,7 +448,7 @@
       <program name="lt-proc -b">
         <file name="rus-bel.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="rus-bel.autolex.bin"/>
       </program>
     </pipeline>
@@ -460,6 +470,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="rus-bel.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="rus-bel.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b -t">
         <file name="apertium-bel-rus.rus-bel.t1x"/>
@@ -484,6 +497,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="rus-bel.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="rus-bel.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-bel-rus.rus-bel.t1x"/>
@@ -513,6 +529,9 @@
       <program name="lt-proc -b">
         <file name="rus-bel.autobil.bin"/>
       </program>
+      <program name="lrx-proc -m">
+        <file name="rus-bel.autolex.bin"/>
+      </program>
       <program name="apertium-transfer -b">
         <file name="apertium-bel-rus.rus-bel.t1x"/>
         <file name="rus-bel.t1x.bin"/>
@@ -527,5 +546,45 @@
       </program>
     </pipeline>
   </mode>
+
+
+  <mode name="rus-bel-alarm" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="rus-bel.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="rus-bel.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="rus-bel.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="rus-bel.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="rus-bel.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-bel-rus.rus-bel.t1x"/>
+        <file name="rus-bel.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-bel-rus.rus-bel.t2x"/>
+        <file name="rus-bel.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-bel-rus.rus-bel.t3x"/>
+        <file name="rus-bel.t3x.bin"/>
+      </program>
+      <program name="apertium-transfer -n">
+        <file name="apertium-bel-rus.rus-bel.t4x"/>
+        <file name="rus-bel.t4x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
 </modes>
 

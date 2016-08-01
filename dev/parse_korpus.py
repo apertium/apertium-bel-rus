@@ -38,3 +38,4 @@ print("{} were translated".format(translated))
 
 unknown_words_f.close()
 words_f.close()
+

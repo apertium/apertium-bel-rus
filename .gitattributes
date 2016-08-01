@@ -15,6 +15,7 @@
 /apertium-bel-rus.rus-bel.t1x -text
 /apertium-bel-rus.rus-bel.t2x -text
 /apertium-bel-rus.rus-bel.t3x -text
+/apertium-bel-rus.rus-bel.t4x -text
 /autogen.sh -text
 /configure.ac -text
 dev/BelarusianTagsAnalyzer/BelarusianTagsAnalyzer.py -text
