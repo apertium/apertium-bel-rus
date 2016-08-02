@@ -1,44 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transfer>
   <section-def-cats>
-    <def-cat n="prep">
-      <cat-item tags="pr"/>
-    </def-cat>
     <def-cat n="default">
       <cat-item tags="*"/>
     </def-cat>
   </section-def-cats>
 
-  <section-def-attrs>
-    <def-attr n="a_cas">
-      <attr-item tags="nom"/>
-    </def-attr>
-  </section-def-attrs>
-
   <section-def-vars>
     <def-var n="alarm" v="~"/>
   </section-def-vars>
 
-  <section-def-macros>
-    <def-macro n="test" npar="1">
-          <let>
-            <var n="alarm"/>
-            <lit v="~"/>
-          </let>
-    </def-macro>
-  </section-def-macros>
-
   <section-rules>
-    <rule comment="REGLA: PREP">
-      <pattern>
-        <pattern-item n="prep"/>
-      </pattern>
-      <action>
-        <out>
-          <lu><clip pos="1" side="tl" part="whole"/></lu>
-        </out>
-      </action>
-    </rule>
 
     <rule comment="REGLA: DEFAULT">
       <pattern>
