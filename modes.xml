@@ -310,7 +310,7 @@
       <program name="lt-proc $1">
         <file name="rus-bel.autogen.bin"/>
       </program>
-      <program name="lt-proc -p">
+      <program name="lt-proc -c -p">
         <file name="rus-bel.autopgen.bin"/>
       </program>
     </pipeline>
