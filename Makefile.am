@@ -28,6 +28,8 @@ TARGETS_COMMON =		\
 	$(PREFIX2).autolex.bin	\
 	$(PREFIX2).autogen.bin	\
 	$(PREFIX2).autopgen.bin	\
+	$(PREFIX2).pgen-short-u-1.bin	\
+	$(PREFIX2).pgen-short-u-2.bin	\
 	$(PREFIX2).t1x.bin	\
 	$(PREFIX2).t2x.bin	\
 	$(PREFIX2).t3x.bin	\
@@ -160,6 +162,12 @@ $(PREFIX1).autopgen.bin: $(AP_SRC2)/$(LANG2).autopgen.bin
 	cp $< $@
 
 $(PREFIX2).autopgen.bin: $(AP_SRC1)/$(LANG1).autopgen.bin
+	cp $< $@
+
+$(PREFIX2).pgen-short-u-1.bin: $(AP_SRC1)/$(LANG1).pgen-short-u-1.bin
+	cp $< $@
+
+$(PREFIX2).pgen-short-u-2.bin: $(AP_SRC1)/$(LANG1).pgen-short-u-2.bin
 	cp $< $@
 
 ###############################################################################
