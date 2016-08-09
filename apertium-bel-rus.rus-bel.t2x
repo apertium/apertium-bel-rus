@@ -10,6 +10,10 @@
       <cat-item tags="SN"/>
       <cat-item tags="SN.*"/>
     </def-cat>
+    <def-cat n="SRel">
+      <cat-item tags="SRel"/>
+      <cat-item tags="SRel.*"/>
+    </def-cat>
     <def-cat n="V">
       <cat-item tags="V"/>
       <cat-item tags="V.*"/>
@@ -42,7 +46,7 @@
 
   <section-rules>
 
-    <rule comment="REGLA: PREP SN">
+    <rule comment="RULE: PREP SN">
       <pattern>
         <pattern-item n="PREP"/>
         <pattern-item n="SN"/>
@@ -69,8 +73,36 @@
       </action>
     </rule>
 
+    <!--
+      Examples: 
+        SRel{які скача} SN{мяч} → SN{мяч}{,} SRel{які скача}
+    -->
+    <rule comment="RULE: SRel SN">
+      <pattern>
+        <pattern-item n="SRel"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <chunk>
+            <lit v="^{^,"/><lit-tag v="cm"/><lit v="$}"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
-    <rule comment="REGLA: SN">
+    <rule comment="RULE: SN">
       <pattern>
         <pattern-item n="SN"/>
       </pattern>
