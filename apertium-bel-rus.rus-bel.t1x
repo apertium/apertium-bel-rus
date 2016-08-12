@@ -22,6 +22,9 @@
   <def-cat n="pprs_pasv">
      <cat-item tags="vblex.*.pprs.pasv.*"/>
   </def-cat>
+  <def-cat n="pp_actv">
+     <cat-item tags="vblex.*.pp.actv.*"/>
+  </def-cat>
   <def-cat n="pprs_actv">
      <cat-item tags="vblex.*.pprs.actv.*"/>
   </def-cat>
@@ -57,7 +60,6 @@
      <cat-item tags="det"/>
      <cat-item tags="det.*"/>
   </def-cat>
-
   <def-cat n="adj_det">
      <cat-item tags="adj.*"/>
      <cat-item tags="det"/>
@@ -377,6 +379,102 @@
     </action>
   </rule>
 
+  <!--
+    Examples: 
+      игравший → які гуляў
+  -->
+  <rule comment="RULE: Past active participle → Pronoun 'як' + Verb">
+    <pattern>
+      <pattern-item n="pp_actv"/>
+    </pattern>
+    <action>
+      <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
+      <out>
+        <chunk name="pp_actv" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="SRel"/></tag>
+          </tags>
+             <lu>
+                 <lit v="які"/>
+                 <lit-tag v="prn.itg"/>
+                 <clip pos="1" side="tl" part="gen"/>
+                 <clip pos="1" side="tl" part="anim"/>
+                 <clip pos="1" side="tl" part="nbr"/>
+                 <clip pos="1" side="tl" part="cas"/>
+             </lu>
+             <b/>
+             <lu>
+                <clip pos="1" side="tl" part="lemh"/>
+                <clip pos="1" side="tl" part="a_vrb"/>
+                <clip pos="1" side="tl" part="asp"/>
+                <lit-tag v="past"/>
+                <clip pos="1" side="tl" part="gen"/>
+                <clip pos="1" side="tl" part="nbr"/>
+                <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+        </chunk>
+      </out>
+    </action>
+  </rule>
+
+  <rule comment="RULE: Past active participle + Noun → {Pronoun 'як' + Verb} + {Noun}, transfer noun's gender to verb">
+    <pattern>
+      <pattern-item n="pp_actv"/>
+      <pattern-item n="nom"/>
+    </pattern>
+    <action>
+      <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
+      <call-macro n="case_adapter1"><with-param pos="2"/></call-macro>
+      <choose>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
+              <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
+            </and>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="2" side="tl" part="gen"/>
+          </let>
+        </when>
+      </choose>
+      <out>
+        <chunk name="pp_actv" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="SRel"/></tag>
+          </tags>
+             <lu>
+                 <lit v="які"/>
+                 <lit-tag v="prn.itg"/>
+                 <clip pos="1" side="tl" part="gen"/>
+                 <clip pos="1" side="tl" part="anim"/>
+                 <clip pos="1" side="tl" part="nbr"/>
+                 <clip pos="1" side="tl" part="cas"/>
+             </lu>
+             <b/>
+             <lu>
+                <clip pos="1" side="tl" part="lemh"/>
+                <clip pos="1" side="tl" part="a_vrb"/>
+                <clip pos="1" side="tl" part="asp"/>
+                <lit-tag v="past"/>
+                <clip pos="1" side="tl" part="gen"/>
+                <clip pos="1" side="tl" part="nbr"/>
+                <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+        </chunk>
+        <chunk name="nom" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="SN"/></tag>
+          </tags>
+             <lu>
+                <clip pos="2" side="tl" part="whole"/>
+             </lu>
+        </chunk>
+      </out>
+    </action>
+  </rule>
+
   <rule comment="RULE: Verb → Verb">
     <pattern>
       <pattern-item n="vblex"/>
@@ -496,7 +594,7 @@
         </when>
       </choose>
       <out>
-        <chunk name="nom" case="caseFirstWord">
+        <chunk name="adj_det_n" case="caseFirstWord">
           <tags>
             <tag><lit-tag v="SN"/></tag>
           </tags>
