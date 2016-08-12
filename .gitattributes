@@ -33,6 +33,12 @@ dev/testvoc/bidix-unknowns.sh -text
 dev/testvoc/generation.sh -text
 dev/testvoc/streamparser.py -text
 /modes.xml -text
+t/README.org -text
+t/config.sh -text
+t/pending-tests -text
+t/regression-tests -text
+t/update-latest -text
+t/wiki-tests -text
 texts/article1.bel.txt -text svneol=unset#application/octet-stream
 texts/article1.rus.txt -text svneol=unset#application/octet-stream
 texts/evaluation_1/article1.bel.mt.txt -text svneol=unset#application/octet-stream
