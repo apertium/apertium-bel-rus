@@ -74,6 +74,7 @@
      <attr-item tags="np.org"/>
      <attr-item tags="np.hyd"/>
      <attr-item tags="np.top"/>
+     <attr-item tags="np.cog"/>
   </def-attr>
 
   <def-attr n="a_nom">
@@ -84,6 +85,7 @@
      <attr-item tags="np.org"/>
      <attr-item tags="np.hyd"/>
      <attr-item tags="np.top"/>
+     <attr-item tags="np.cog"/>
   </def-attr>
 
   <def-attr n="a_prp">
