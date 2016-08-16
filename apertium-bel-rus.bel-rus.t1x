@@ -197,6 +197,44 @@
       </when>
     </choose>
   </def-macro>
+  <!-- Transfer gender, number, case -->
+  <def-macro n="case_adapter_n" npar="2">
+    <choose>
+      <when>
+        <test>
+          <and>
+            <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
+            <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
+          </and>
+        </test>
+        <let>
+          <clip pos="1" side="tl" part="gen"/>
+          <clip pos="2" side="tl" part="gen"/>
+        </let>
+        <let>
+          <clip pos="1" side="tl" part="cas"/>
+          <clip pos="2" side="tl" part="cas"/>
+        </let>
+      </when>
+      <when>
+        <test>
+          <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
+        </test>
+        <let>
+          <clip pos="1" side="tl" part="nbr"/>
+          <clip pos="2" side="tl" part="nbr"/>
+        </let>
+        <let>
+          <clip pos="1" side="tl" part="gen"/>
+          <lit-tag v="mfn"/>
+        </let>
+        <let>
+          <clip pos="1" side="tl" part="cas"/>
+          <clip pos="2" side="tl" part="cas"/>
+        </let>
+      </when>
+    </choose>
+  </def-macro>
 </section-def-macros>
 
 <section-rules>
@@ -347,22 +385,9 @@
     <action>
       <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
       <call-macro n="case_adapter1"><with-param pos="2"/></call-macro>
-      <choose>
-        <when>
-          <test>
-            <and>
-              <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
-              <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
-            </and>
-          </test>
-          <let>
-            <clip pos="1" side="tl" part="gen"/>
-            <clip pos="2" side="tl" part="gen"/>
-          </let>
-        </when>
-      </choose>
+      <call-macro n="case_adapter_n"><with-param pos="1"/><with-param pos="2"/></call-macro>
       <out>
-        <chunk name="adj" case="caseFirstWord">
+        <chunk name="adj_det_n" case="caseFirstWord">
           <tags>
             <tag><lit-tag v="SN"/></tag>
           </tags>
