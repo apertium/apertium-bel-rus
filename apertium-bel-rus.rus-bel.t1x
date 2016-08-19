@@ -16,17 +16,29 @@
      <cat-item tags="num"/>
      <cat-item tags="num.*"/>
   </def-cat>
-  <def-cat n="vblex">
+  <def-cat n="vb">
      <cat-item tags="vblex.*"/>
+     <cat-item tags="vbser.*"/>
+     <cat-item tags="vbmod.*"/>
+     <cat-item tags="vbhaver.*"/>
   </def-cat>
   <def-cat n="pprs_pasv">
      <cat-item tags="vblex.*.pprs.pasv.*"/>
+     <cat-item tags="vbhaver.*.pprs.pasv.*"/>
+     <cat-item tags="vbser.pprs.pasv.*"/>
+     <cat-item tags="vbmod.*.pprs.pasv.*"/>
   </def-cat>
   <def-cat n="pp_actv">
      <cat-item tags="vblex.*.pp.actv.*"/>
+     <cat-item tags="vbhaver.*.pp.actv.*"/>
+     <cat-item tags="vbser.pp.actv.*"/>
+     <cat-item tags="vbmod.*.pp.actv.*"/>
   </def-cat>
   <def-cat n="pprs_actv">
      <cat-item tags="vblex.*.pprs.actv.*"/>
+     <cat-item tags="vbhaver.*.pprs.actv.*"/>
+     <cat-item tags="vbser.pprs.actv.*"/>
+     <cat-item tags="vbmod.*.pprs.actv.*"/>
   </def-cat>
   <def-cat n="prn">
      <cat-item tags="prn.dem.*"/>
@@ -117,6 +129,9 @@
 
   <def-attr n="a_vrb">
      <attr-item tags="vblex"/>
+     <attr-item tags="vbmod"/>
+     <attr-item tags="vbser"/>
+     <attr-item tags="vbhaver"/>
   </def-attr>
 
   <def-attr n="asp">
@@ -234,10 +249,6 @@
           <clip pos="1" side="tl" part="gen"/>
           <clip pos="2" side="tl" part="gen"/>
         </let>
-        <let>
-          <clip pos="1" side="tl" part="cas"/>
-          <clip pos="2" side="tl" part="cas"/>
-        </let>
       </when>
       <when>
         <test>
@@ -250,10 +261,6 @@
         <let>
           <clip pos="1" side="tl" part="gen"/>
           <lit-tag v="mfn"/>
-        </let>
-        <let>
-          <clip pos="1" side="tl" part="cas"/>
-          <clip pos="2" side="tl" part="cas"/>
         </let>
       </when>
     </choose>
@@ -516,7 +523,7 @@
 
   <rule comment="RULE: Verb → Verb">
     <pattern>
-      <pattern-item n="vblex"/>
+      <pattern-item n="vb"/>
     </pattern>
     <action>
       <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
@@ -637,7 +644,7 @@
   </rule>
 
   <!-- TODO: fix it -->
-  <rule comment="RULE: Conjuction, truncate CNP/CVP">
+  <rule comment="RULE: Conjunction, truncate CNP/CVP">
     <pattern>
       <pattern-item n="cnj"/>
     </pattern>

@@ -197,7 +197,7 @@
       </when>
     </choose>
   </def-macro>
-  <!-- Transfer gender, number, case -->
+  <!-- Transfer gender, number -->
   <def-macro n="case_adapter_n" npar="2">
     <choose>
       <when>
@@ -211,10 +211,6 @@
           <clip pos="1" side="tl" part="gen"/>
           <clip pos="2" side="tl" part="gen"/>
         </let>
-        <let>
-          <clip pos="1" side="tl" part="cas"/>
-          <clip pos="2" side="tl" part="cas"/>
-        </let>
       </when>
       <when>
         <test>
@@ -227,10 +223,6 @@
         <let>
           <clip pos="1" side="tl" part="gen"/>
           <lit-tag v="mfn"/>
-        </let>
-        <let>
-          <clip pos="1" side="tl" part="cas"/>
-          <clip pos="2" side="tl" part="cas"/>
         </let>
       </when>
     </choose>
