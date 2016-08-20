@@ -41,6 +41,7 @@ t/update-latest -text
 t/wiki-tests -text
 texts/article1.bel.txt -text svneol=unset#application/octet-stream
 texts/article1.rus.txt -text svneol=unset#application/octet-stream
+texts/article2.bel.txt -text
 texts/article2.rus.txt -text svneol=unset#application/octet-stream
 texts/evaluation_1/article1.bel.mt.txt -text svneol=unset#application/octet-stream
 texts/evaluation_1/article1.bel.postedit.txt -text svneol=unset#application/octet-stream
@@ -52,6 +53,8 @@ texts/evaluation_2/tale1.rus.mt.txt -text svneol=unset#application/octet-stream
 texts/evaluation_2/tale1.rus.postedit.txt -text svneol=unset#application/octet-stream
 texts/evaluation_3/article2.bel.mt.txt -text svneol=unset#application/octet-stream
 texts/evaluation_3/article2.bel.postedit.txt -text svneol=unset#application/octet-stream
+texts/evaluation_3/article2.rus.mt.txt -text
+texts/evaluation_3/article2.rus.postedit.txt -text
 texts/tale1.bel.txt -text svneol=unset#application/octet-stream
 texts/tale1.rus.txt -text svneol=unset#application/octet-stream
 texts/text-bel.txt -text svneol=unset#application/octet-stream
