@@ -7,7 +7,7 @@ set -e -u
 # before running this script.
 
 # How many times to follow cycle when expanding with --hfst; gets slow if too high:
-declare -ir CYCLES=${CYCLES-0}
+declare -ir CYCLES=0 #${CYCLES-0}
 # How many parallel pipelines to run (requires GNU parallel installed;
 # only worth increasing if CPU's are not saturated and there's free
 # RAM while running):
