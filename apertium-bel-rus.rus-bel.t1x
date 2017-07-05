@@ -265,6 +265,7 @@
       </when>
     </choose>
   </def-macro>
+
 </section-def-macros>
 
 <section-rules>
@@ -603,6 +604,20 @@
       <pattern-item n="adj"/>
     </pattern>
     <action>
+      <choose>
+          <when>
+            <test>
+              <and>
+                <equal><clip pos="1" side="tl" part="anim"/><lit-tag v="nn"/></equal>
+                <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="f"/></equal>
+                <equal><clip pos="1" side="tl" part="cas"/><lit-tag v="acc"/></equal>
+              </and>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="anim"/><lit-tag v="an"/>
+            </let>
+          </when>
+      </choose>
       <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
       <out>
         <chunk name="adj" case="caseFirstWord">
