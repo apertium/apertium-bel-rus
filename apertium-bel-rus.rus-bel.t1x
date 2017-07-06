@@ -188,6 +188,10 @@
      <attr-item tags="det.itg"/>
   </def-attr>
 
+  <def-attr n="a_fac">
+     <attr-item tags="fac"/>
+  </def-attr>
+
   <def-attr n="gen">
      <attr-item tags="m"/>
      <attr-item tags="f"/>
@@ -234,6 +238,7 @@
 <section-def-macros>
   <!-- Case adapter: prp (rus) → loc (bel) -->
   <def-macro n="case_adapter1" npar="1">
+    <let><clip pos="1" side="tl" part="a_fac"/><lit v=""/></let>
     <choose>
       <when>
         <test><equal><clip pos="1" side="tl" part="cas"/><lit-tag v="prp"/></equal></test>
