@@ -22,6 +22,12 @@
      <cat-item tags="vbmod.*"/>
      <cat-item tags="vbhaver.*"/>
   </def-cat>
+  <def-cat n="vb_short">
+    <cat-item tags="vblex.*.short.*"/>
+    <cat-item tags="vbmod.*.short.*"/>
+    <cat-item tags="vbser.*.short.*"/>
+    <cat-item tags="vbhaver.*.short.*"/>
+  </def-cat>
   <def-cat n="pprs_pasv">
      <cat-item tags="vblex.*.pprs.pasv.*"/>
      <cat-item tags="vbhaver.*.pprs.pasv.*"/>
@@ -521,6 +527,26 @@
       </out>
     </action>
   </rule>
+
+  <rule comment="verb short → long">
+    <pattern>
+      <pattern-item n="vb_short"/>
+    </pattern>
+    <action>
+      <let><clip pos="1" side="tl" part="cas"/><lit-tag v="nom"/></let>
+      <out>
+        <lu>
+          <clip pos="1" side="tl" part="a_vrb"/>
+          <clip pos="1" side="tl" part="asp"/>
+          <clip pos="1" side="tl" part="tns"/>
+          <clip pos="1" side="tl" part="gen"/>
+          <clip pos="1" side="tl" part="nbr"/>
+          <clip pos="1" side="tl" part="cas"/>
+        </lu>
+      </out>
+    </action>
+  </rule>
+
 
   <rule comment="RULE: Verb → Verb">
     <pattern>
