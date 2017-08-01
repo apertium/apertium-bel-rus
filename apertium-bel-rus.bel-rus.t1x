@@ -25,6 +25,7 @@
   <def-cat n="vblex_imp">
      <cat-item tags="vblex.impf.imp.p1.pl"/>
      <cat-item tags="vblex.perf.imp.p1.pl"/>
+     <cat-item tags="vblex.dual.imp.p1.pl"/>
   </def-cat>
   <def-cat n="pprs_pasv">
      <cat-item tags="vblex.*.pprs.pasv.*"/>
@@ -507,6 +508,24 @@
             </and>
           </test>          
           <let><clip pos="1" side="tl" part="tns"/><lit-tag v="fut"/></let>
+        </when>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="asp"/><lit-tag v="perf"/></equal> <!-- temp solution -->
+              <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="pprs.adv"/></equal>
+            </and>
+          </test>          
+          <let><clip pos="1" side="tl" part="tns"/><lit-tag v="pp.adv"/></let>
+        </when>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="asp"/><lit-tag v="impf"/></equal> <!-- temp solution -->
+              <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="pp.adv"/></equal>
+            </and>
+          </test>          
+          <let><clip pos="1" side="tl" part="tns"/><lit-tag v="pprs.adv"/></let>
         </when>
       </choose>
       <out>
