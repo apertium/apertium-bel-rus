@@ -69,10 +69,10 @@
      <cat-item tags="det.*"/>
   </def-cat>
   <def-cat n="pp_pasv">
-     <cat-item tags="vblex.*.impf.*.pp.*.pasv.*"/>
-     <cat-item tags="vbhaver.*.impf.*.pp.*.pasv.*"/>
-     <cat-item tags="vbser.*.impf.*.pp.*.pasv.*"/>
-     <cat-item tags="vbmod.*.impf.*.pp.*.pasv.*"/>
+     <cat-item tags="vblex.impf.pp.pasv.*"/>
+     <cat-item tags="vbhaver.impf.pp.pasv.*"/>
+     <cat-item tags="vbser.impf.pp.pasv.*"/>
+     <cat-item tags="vbmod.impf.pp.pasv.*"/>
   </def-cat>
 
 </section-def-cats>
@@ -286,7 +286,7 @@
 
 <section-rules>
 
-<!--   <rule comment="RULE: Past passive participle → Present passive participle">
+  <rule comment="RULE: Past passive participle → Present passive participle">
     <pattern>
       <pattern-item n="pp_pasv"/>
     </pattern>
@@ -324,7 +324,7 @@
         </chunk>
       </out>
     </action>
-  </rule> -->
+  </rule>
 
   
   <rule comment="RULE: Determiner → Determiner">
@@ -427,6 +427,7 @@
     </action>
   </rule>
 
+
   <rule comment="RULE: Verb imp → Давай + p1 pl">
     <pattern>
       <pattern-item n="vblex_imp"/>
@@ -454,7 +455,9 @@
           </lu>
           <b/>
           <lu>
-            <clip pos="1" side="tl" part="whole"/>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="tags"/>
+            <clip pos="1" side="tl" part="lemq"/>
           </lu>
         </chunk>
       </out>

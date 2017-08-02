@@ -28,11 +28,17 @@
     <cat-item tags="vbser.*.short.*"/>
     <cat-item tags="vbhaver.*.short.*"/>
   </def-cat>
+  <def-cat n="perfpres">
+    <cat-item tags="vblex.*.perf.*.pres.*"/>
+    <cat-item tags="vbmod.*.perf.*.pres.*"/>
+    <cat-item tags="vbser.*.perf.*.pres.*"/>
+    <cat-item tags="vbhaver.*.perf.*.pres.*"/>
+  </def-cat>
   <def-cat n="ipp">
-    <cat-item tags="vblex.impf.*.adv.*"/>
-    <cat-item tags="vbmod.impf.*.adv.*"/>
-    <cat-item tags="vbser.impf.*.adv.*"/>
-    <cat-item tags="vbhaver.impf.*.adv.*"/>
+    <cat-item tags="vblex.impf.*.pp.adv"/>
+    <cat-item tags="vbmod.impf.*.pp.adv"/>
+    <cat-item tags="vbser.impf.*.pp.adv"/>
+    <cat-item tags="vbhaver.impf.*.pp.adv"/>
   </def-cat>
   <def-cat n="pprs_pasv">
      <cat-item tags="vblex.*.pprs.pasv.*"/>
@@ -139,6 +145,10 @@
      <attr-item tags="adj.sint"/>
   </def-attr>
 
+  <def-attr n="a_cmp">
+     <attr-item tags="cmp"/>
+  </def-attr>
+
   <def-attr n="a_vrb">
      <attr-item tags="vblex"/>
      <attr-item tags="vbmod"/>
@@ -192,6 +202,10 @@
      <attr-item tags="det.dem"/>
      <attr-item tags="det.ind"/>
      <attr-item tags="det.itg"/>
+  </def-attr>
+
+  <def-attr n="a_sint">
+    <attr-item tags="sint"/>
   </def-attr>
 
   <def-attr n="a_fac">
@@ -367,6 +381,7 @@
       </out>
     </action>
   </rule>
+  
 
   <rule comment="RULE: Proper Noun → Proper Noun">
     <pattern>
@@ -392,6 +407,32 @@
     </action>
   </rule>
 
+  <rule comment="verb short → long">
+    <pattern>
+      <pattern-item n="vb_short"/>
+    </pattern>
+    <action>
+      <let><clip pos="1" side="tl" part="cas"/><lit v=""/></let>
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="anim"/><lit-tag v=""/></equal></test>
+          <let><clip pos="1" side="tl" part="anim"/><lit-tag v="an"/></let>
+        </when>
+      </choose>
+      <out>
+        <lu>
+          <clip pos="1" side="tl" part="a_vrb"/>
+          <clip pos="1" side="tl" part="asp"/>
+          <clip pos="1" side="tl" part="tns"/>
+          <clip pos="1" side="tl" part="gen"/>
+          <clip pos="1" side="tl" part="anim"/>
+          <clip pos="1" side="tl" part="nbr"/>
+          <lit-tag v="nom"/>
+        </lu>
+      </out>
+    </action>
+  </rule>
+
   <!--
     Examples: 
       рекомендуемая литература → рэкамендаваная літаратура
@@ -399,29 +440,42 @@
   -->
   <!-- TODO: tests -->
   <rule comment="RULE: Present passive participle → Past passive participle">
-     <pattern>
-       <pattern-item n="pprs_pasv"/>
-     </pattern>
-     <action>
+    <pattern>
+      <pattern-item n="pprs_pasv"/>
+    </pattern>
+    <action>
+      <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="anim"/><lit-tag v=""/></equal></test>
+          <let><clip pos="1" side="tl" part="anim"/><lit-tag v="an"/></let>
+        </when>
+      </choose>
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="cas"/><lit-tag v=""/></equal></test>
+          <let><clip pos="1" side="tl" part="cas"/><lit-tag v="nom"/></let>
+        </when>
+      </choose>
        <out>
-           <chunk name="prtcpl" case="caseFirstWord">
-             <tags>
-               <tag><lit-tag v="SA"/></tag>
-             </tags>
-             <lu>
-                  <clip pos="1" side="tl" part="lemh"/>
-                  <clip pos="1" side="tl" part="a_vrb"/>
-                  <clip pos="1" side="tl" part="asp"/>
-                  <lit-tag v="pp.pasv"/>
-                  <clip pos="1" side="tl" part="gen"/>
-                  <clip pos="1" side="tl" part="anim"/>
-                  <clip pos="1" side="tl" part="nbr"/>
-                  <clip pos="1" side="tl" part="cas"/>
-                  <clip pos="1" side="tl" part="lemq"/>
-             </lu>
-           </chunk>
-       </out>
-     </action>
+        <chunk name="prtcpl" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="SA"/></tag>
+          </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_vrb"/>
+            <clip pos="1" side="tl" part="asp"/>
+            <lit-tag v="pp.pasv"/>
+            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="anim"/>
+            <clip pos="1" side="tl" part="nbr"/>
+            <clip pos="1" side="tl" part="cas"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+        </chunk>
+      </out>
+    </action>
   </rule>
 
   <!--
@@ -544,24 +598,6 @@
     </action>
   </rule>
 
-  <rule comment="verb short → long">
-    <pattern>
-      <pattern-item n="vb_short"/>
-    </pattern>
-    <action>
-      <let><clip pos="1" side="tl" part="cas"/><lit-tag v="nom"/></let>
-      <out>
-        <lu>
-          <clip pos="1" side="tl" part="a_vrb"/>
-          <clip pos="1" side="tl" part="asp"/>
-          <clip pos="1" side="tl" part="tns"/>
-          <clip pos="1" side="tl" part="gen"/>
-          <clip pos="1" side="tl" part="nbr"/>
-          <clip pos="1" side="tl" part="cas"/>
-        </lu>
-      </out>
-    </action>
-  </rule>
 
   <rule comment="RULE: imperfective adverbial past participle">
     <pattern>
@@ -597,6 +633,26 @@
     </pattern>
     <action>
       <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
+      <choose>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="asp"/><lit-tag v="impf"/></equal>
+              <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="fut"/></equal>
+            </and>
+          </test>          
+          <let><clip pos="1" side="tl" part="tns"/><lit-tag v="pres"/></let>
+        </when>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="asp"/><lit-tag v="perf"/></equal>
+              <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="pres"/></equal>
+            </and>
+          </test>          
+          <let><clip pos="1" side="tl" part="tns"/><lit-tag v="fut"/></let>
+        </when>
+      </choose>
       <out>
         <chunk name="vb" case="caseFirstWord">
           <tags>
@@ -620,22 +676,29 @@
        <pattern-item n="adj_short"/>
      </pattern>
      <action>
-       <out>
-           <chunk name="adj" case="caseFirstWord">
-             <tags>
-               <tag><lit-tag v="SA"/></tag>
-             </tags>
-             <lu>
-                 <clip pos="1" side="tl" part="lem"/>
-                 <clip pos="1" side="tl" part="a_adj"/>
-                 <clip pos="1" side="tl" part="gen"/>
-                 <lit-tag v="an"/>
-                 <clip pos="1" side="tl" part="nbr"/>
-                 <clip pos="1" side="tl" part="cas"/>
-                 <lit-tag v="nom"/>
-             </lu>
-           </chunk>
-       </out>
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="sl" part="cmp"/><lit-tag v="cmp"/></equal></test> <!-- default for short comparatives -->
+          <let><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></let>
+          <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+        </when>
+      </choose>
+     <out>
+         <chunk name="adj" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SA"/></tag>
+           </tags>
+           <lu>
+               <clip pos="1" side="tl" part="lem"/>
+               <clip pos="1" side="tl" part="a_adj"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <lit-tag v="an"/>
+               <clip pos="1" side="tl" part="nbr"/>
+               <clip pos="1" side="tl" part="cas"/>
+               <lit-tag v="nom"/>
+           </lu>
+         </chunk>
+     </out>
      </action>
   </rule>
 
