@@ -678,10 +678,13 @@
      <action>
       <choose>
         <when>
-          <test><equal><clip pos="1" side="sl" part="cmp"/><lit-tag v="cmp"/></equal></test> <!-- default for short comparatives -->
-          <let><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></let>
-          <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+          <test><equal><clip pos="1" side="sl" part="a_cmp"/><lit-tag v="cmp"/></equal></test> 
+          <let><clip pos="1" side="sl" part="a_cmp"/><lit-tag v=""/></let>
+          <let><clip pos="1" side="tl" part="whole"/><concat><clip pos="1" side="tl" part="whole"/><lit-tag v="m.an.sg.nom"/></concat></let>
         </when>
+        <otherwise>
+          <let><clip pos="1" side="tl" part="tags"/><concat><lit-tag v="adj"/><clip pos="1" side="sl" part="gen"/><lit-tag v="an"/><clip pos="1" side="sl" part="nbr"/><lit-tag v="nom"/></concat></let>
+        </otherwise>
       </choose>
      <out>
          <chunk name="adj" case="caseFirstWord">
@@ -689,13 +692,7 @@
              <tag><lit-tag v="SA"/></tag>
            </tags>
            <lu>
-               <clip pos="1" side="tl" part="lem"/>
-               <clip pos="1" side="tl" part="a_adj"/>
-               <clip pos="1" side="tl" part="gen"/>
-               <lit-tag v="an"/>
-               <clip pos="1" side="tl" part="nbr"/>
-               <clip pos="1" side="tl" part="cas"/>
-               <lit-tag v="nom"/>
+              <clip pos="1" side="tl" part="whole"/>
            </lu>
          </chunk>
      </out>
