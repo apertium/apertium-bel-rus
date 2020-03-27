@@ -2,7 +2,6 @@
 ## Makefile for Belarusian--Russian
 ###############################################################################
 
-VERSION=0.1.0
 LANG1=bel
 LANG2=rus
 PREFIX1=$(LANG1)-$(LANG2)
