@@ -1,0 +1,36 @@
+[1zriR-Ym2cui#0] ^default<default>{^з<pr>$}$ ^n<SN>{^зброя<n><f><nn><sg><ins>$}$
+[/1zriR-Ym2cui]
+[2E67GTeCJNw5#0] ^prn<PRN>{^Яна<prn><pers><p3><f><sg><nom>$}$ ^vb<SV>{^упасці<vblex><perf><past><f><sg>$}$ ^default<default>{^у<pr>$}$ ^n<SN>{^дом²<n><m><nn><sg><loc>$}$^default<default>{^.<sent>$}$
+[/2E67GTeCJNw5]
+[4jdU_v-9NOyd#0] ^prn<PRN>{^Я<prn><pers><p1><mf><sg><nom>$}$ ^vb<SV>{^упасці<vblex><perf><past><f><sg>$}$ ^default<default>{^у<pr>$}$ ^n<SN>{^дом²<n><m><nn><sg><loc>$}$^default<default>{^.<sent>$}$
+[/4jdU_v-9NOyd]
+[7sKKgJ5_liy8#0] ^default<default>{^з<pr>$}$ ^prn<PRN>{^я<prn><pers><p1><mf><sg><gen>$}$
+[/7sKKgJ5_liy8]
+[AoqA13q9yR5S#0] ^prn<PRN>{^Ён<prn><pers><p3><m><sg><nom>$}$ ^vb<SV>{^быць<vblex><impf><past><m><sg>$}$ ^default<default>{^у<pr>$}$ ^n<SN>{^дом²<n><m><nn><sg><loc>$}$^default<default>{^.<sent>$}$
+[/AoqA13q9yR5S]
+[OiPF5cZyLnzb#0] ^n<SN>{^Газета<n><f><nn><sg><nom>$}$ "^n<SN>{^Праўда<n><f><nn><sg><nom>$}$" ^unknown<unknown>{^*возобновила$}$ ^n<SN>{^публікацыя<n><f><nn><sg><acc>$}$^default<default>{^.<sent>$}$
+[/OiPF5cZyLnzb]
+[OnqOJZwyDUie#0] ^default<default>{^з<pr>$}$ ^n<SN>{^брат<n><m><aa><sg><ins>$}$
+[/OnqOJZwyDUie]
+[SbXz6kwCemvT#0] ^default<default>{^аб<pr>$}$ ^prn<PRN>{^я<prn><pers><p1><mf><sg><loc>$}$
+[/SbXz6kwCemvT]
+[Tp56v1WA7PSf#0] ^n<SN>{^Дзень<n><m><nn><sg><nom>$}$ ^n<SN>{^незалежнасць<n><f><nn><sg><gen>$}$ ^np<SN>{^Украіна<np><top><f><sg><gen>$}$
+[/Tp56v1WA7PSf]
+[VKfUYQ09E-Xf#0] ^default<default>{^у<pr>$}$ ^n<SN>{^універсітэт<n><m><nn><sg><loc>$}$
+[/VKfUYQ09E-Xf]
+[WDoQsNnOgSQT#0] ^default<default>{^перад<pr>$}$ ^prn<PRN>{^я<prn><pers><p1><mf><sg><ins>$}$
+[/WDoQsNnOgSQT]
+[hE3K3IKCF8kv#0] ^prn<PRN>{^Яна<prn><pers><p3><f><sg><nom>$}$ ^vb<SV>{^быць<vblex><impf><past><f><sg>$}$ ^default<default>{^у<pr>$}$ ^n<SN>{^дом²<n><m><nn><sg><loc>$}$^default<default>{^.<sent>$}$
+[/hE3K3IKCF8kv]
+[hvPk8PRdFEbz#0] ^prn<PRN>{^Я<prn><pers><p1><mf><sg><nom>$}$ ^vb<SV>{^быць<vblex><impf><past><f><sg>$}$ ^default<default>{^у<pr>$}$ ^n<SN>{^дом²<n><m><nn><sg><loc>$}$^default<default>{^.<sent>$}$
+[/hvPk8PRdFEbz]
+[nLzsIjAWcW16#0] ^default<default>{^з<pr>$}$ ^prn<PRN>{^я<prn><pers><p1><mf><sg><ins>$}$
+[/nLzsIjAWcW16]
+[ohzDH8Ybeu9k#0] ^default<default>{^над<pr>$}$ ^prn<PRN>{^я<prn><pers><p1><mf><sg><ins>$}$
+[/ohzDH8Ybeu9k]
+[rfKRy6CyXwSF#0] ^n<SN>{^зорка<n><f><nn><sg><nom>$}$ ^default<default>{^у<pr>$}$ ^n<SN>{^неба<n><nt><nn><sg><loc>$}$
+[/rfKRy6CyXwSF]
+[tI0USvytQHog#0] ^default<default>{^з<pr>$}$ ^n<SN>{^школа<n><f><nn><sg><gen>$}$
+[/tI0USvytQHog]
+[zHgHLWlGYq0p#0] ^adj_det_n<SN>{^моцны<adj><m><an><sg><nom>$ ^удар<n><m><nn><sg><nom>$}$
+[/zHgHLWlGYq0p]

@@ -1,0 +1,36 @@
+[1zriR-Ym2cui#0] ^з<pr>$ ^зброя<n><f><nn><sg><ins>$
+[/1zriR-Ym2cui]
+[2E67GTeCJNw5#0] ^Яна<prn><pers><p3><f><sg><nom>$ ^упасці<vblex><perf><past><f><sg>$ ^у<pr>$ ^дом²<n><m><nn><sg><loc>$^.<sent>$
+[/2E67GTeCJNw5]
+[4jdU_v-9NOyd#0] ^Я<prn><pers><p1><mf><sg><nom>$ ^упасці<vblex><perf><past><f><sg>$ ^у<pr>$ ^дом²<n><m><nn><sg><loc>$^.<sent>$
+[/4jdU_v-9NOyd]
+[7sKKgJ5_liy8#0] ^з<pr>$ ^я<prn><pers><p1><mf><sg><gen>$
+[/7sKKgJ5_liy8]
+[AoqA13q9yR5S#0] ^Ён<prn><pers><p3><m><sg><nom>$ ^быць<vblex><impf><past><m><sg>$ ^у<pr>$ ^дом²<n><m><nn><sg><loc>$^.<sent>$
+[/AoqA13q9yR5S]
+[OiPF5cZyLnzb#0] ^Газета<n><f><nn><sg><nom>$ "^Праўда<n><f><nn><sg><nom>$" ^*возобновила$ ^публікацыя<n><f><nn><sg><acc>$^.<sent>$
+[/OiPF5cZyLnzb]
+[OnqOJZwyDUie#0] ^з<pr>$ ^брат<n><m><aa><sg><ins>$
+[/OnqOJZwyDUie]
+[SbXz6kwCemvT#0] ^аб<pr>$ ^я<prn><pers><p1><mf><sg><loc>$
+[/SbXz6kwCemvT]
+[Tp56v1WA7PSf#0] ^Дзень<n><m><nn><sg><nom>$ ^незалежнасць<n><f><nn><sg><gen>$ ^Украіна<np><top><f><sg><gen>$
+[/Tp56v1WA7PSf]
+[VKfUYQ09E-Xf#0] ^у<pr>$ ^універсітэт<n><m><nn><sg><loc>$
+[/VKfUYQ09E-Xf]
+[WDoQsNnOgSQT#0] ^перад<pr>$ ^я<prn><pers><p1><mf><sg><ins>$
+[/WDoQsNnOgSQT]
+[hE3K3IKCF8kv#0] ^Яна<prn><pers><p3><f><sg><nom>$ ^быць<vblex><impf><past><f><sg>$ ^у<pr>$ ^дом²<n><m><nn><sg><loc>$^.<sent>$
+[/hE3K3IKCF8kv]
+[hvPk8PRdFEbz#0] ^Я<prn><pers><p1><mf><sg><nom>$ ^быць<vblex><impf><past><f><sg>$ ^у<pr>$ ^дом²<n><m><nn><sg><loc>$^.<sent>$
+[/hvPk8PRdFEbz]
+[nLzsIjAWcW16#0] ^з<pr>$ ^я<prn><pers><p1><mf><sg><ins>$
+[/nLzsIjAWcW16]
+[ohzDH8Ybeu9k#0] ^над<pr>$ ^я<prn><pers><p1><mf><sg><ins>$
+[/ohzDH8Ybeu9k]
+[rfKRy6CyXwSF#0] ^зорка<n><f><nn><sg><nom>$ ^у<pr>$ ^неба<n><nt><nn><sg><loc>$
+[/rfKRy6CyXwSF]
+[tI0USvytQHog#0] ^з<pr>$ ^школа<n><f><nn><sg><gen>$
+[/tI0USvytQHog]
+[zHgHLWlGYq0p#0] ^моцны<adj><m><an><sg><nom>$ ^удар<n><m><nn><sg><nom>$
+[/zHgHLWlGYq0p]

@@ -1,0 +1,36 @@
+[1zriR-Ym2cui#0] ^с<pr>/з<pr>$ ^оружие<n><nt><nn><sg><ins>/зброя<n><f><nn><sg><ins>$
+[/1zriR-Ym2cui]
+[2E67GTeCJNw5#0] ^Она<prn><pers><p3><f><sg><nom>/Яна<prn><pers><p3><f><sg><nom>$ ^упасть<vblex><perf><iv><past><f><sg>/упасці<vblex><perf><past><f><sg>/зваліцца<vblex><perf><past><f><sg>$ ^в<pr>/у<pr>/ва<pr>$ ^дом<n><m><nn><sg><prp>/дом²<n><m><nn><sg><prp>/дом¹<n><m><nn><sg><prp>$^.<sent>/.<sent>$
+[/2E67GTeCJNw5]
+[4jdU_v-9NOyd#0] ^Я<prn><pers><p1><mf><sg><nom>/Я<prn><pers><p1><mf><sg><nom>$ ^упасть<vblex><perf><iv><past><f><sg>/упасці<vblex><perf><past><f><sg>/зваліцца<vblex><perf><past><f><sg>$ ^в<pr>/у<pr>/ва<pr>$ ^дом<n><m><nn><sg><prp>/дом²<n><m><nn><sg><prp>/дом¹<n><m><nn><sg><prp>$^.<sent>/.<sent>$
+[/4jdU_v-9NOyd]
+[7sKKgJ5_liy8#0] ^с<pr>/з<pr>$ ^я<prn><pers><p1><mf><sg><gen>/я<prn><pers><p1><mf><sg><gen>$
+[/7sKKgJ5_liy8]
+[AoqA13q9yR5S#0] ^Он<prn><pers><p3><m><sg><nom>/Ён<prn><pers><p3><m><sg><nom>$ ^быть<vbser><past><m><sg>/быць<vblex><impf><past><m><sg>$ ^в<pr>/у<pr>/ва<pr>$ ^дом<n><m><nn><sg><prp>/дом²<n><m><nn><sg><prp>/дом¹<n><m><nn><sg><prp>$^.<sent>/.<sent>$
+[/AoqA13q9yR5S]
+[OiPF5cZyLnzb#0] ^Газета<n><f><nn><sg><nom>/Газета<n><f><nn><sg><nom>$ "^Правда<n><f><nn><sg><nom>/Праўда<n><f><nn><sg><nom>$" ^*возобновила/*возобновила$ ^публикация<n><f><nn><sg><acc>/публікацыя<n><f><nn><sg><acc>$^.<sent>/.<sent>$
+[/OiPF5cZyLnzb]
+[OnqOJZwyDUie#0] ^с<pr>/з<pr>$ ^брат<n><m><aa><sg><ins>/брат<n><m><aa><sg><ins>$
+[/OnqOJZwyDUie]
+[SbXz6kwCemvT#0] ^о<pr>/аб<pr>/пра<pr>$ ^я<prn><pers><p1><mf><sg><prp>/я<prn><pers><p1><mf><sg><prp>$
+[/SbXz6kwCemvT]
+[Tp56v1WA7PSf#0] ^День<n><m><nn><sg><nom>/Дзень<n><m><nn><sg><nom>$ ^независимость<n><f><nn><sg><gen>/незалежнасць<n><f><nn><sg><gen>$ ^Украина<np><top><f><sg><gen>/Украіна<np><top><f><sg><gen>$
+[/Tp56v1WA7PSf]
+[VKfUYQ09E-Xf#0] ^в<pr>/у<pr>/ва<pr>$ ^университет<n><m><nn><sg><prp>/універсітэт<n><m><nn><sg><prp>$
+[/VKfUYQ09E-Xf]
+[WDoQsNnOgSQT#0] ^перед<pr>/перад<pr>$ ^я<prn><pers><p1><mf><sg><ins>/я<prn><pers><p1><mf><sg><ins>$
+[/WDoQsNnOgSQT]
+[hE3K3IKCF8kv#0] ^Она<prn><pers><p3><f><sg><nom>/Яна<prn><pers><p3><f><sg><nom>$ ^быть<vbser><past><f><sg>/быць<vblex><impf><past><f><sg>$ ^в<pr>/у<pr>/ва<pr>$ ^дом<n><m><nn><sg><prp>/дом²<n><m><nn><sg><prp>/дом¹<n><m><nn><sg><prp>$^.<sent>/.<sent>$
+[/hE3K3IKCF8kv]
+[hvPk8PRdFEbz#0] ^Я<prn><pers><p1><mf><sg><nom>/Я<prn><pers><p1><mf><sg><nom>$ ^быть<vbser><past><f><sg>/быць<vblex><impf><past><f><sg>$ ^в<pr>/у<pr>/ва<pr>$ ^дом<n><m><nn><sg><prp>/дом²<n><m><nn><sg><prp>/дом¹<n><m><nn><sg><prp>$^.<sent>/.<sent>$
+[/hvPk8PRdFEbz]
+[nLzsIjAWcW16#0] ^с<pr>/з<pr>$ ^я<prn><pers><p1><mf><sg><ins>/я<prn><pers><p1><mf><sg><ins>$
+[/nLzsIjAWcW16]
+[ohzDH8Ybeu9k#0] ^над<pr>/над<pr>$ ^я<prn><pers><p1><mf><sg><ins>/я<prn><pers><p1><mf><sg><ins>$
+[/ohzDH8Ybeu9k]
+[rfKRy6CyXwSF#0] ^звезда<n><f><nn><sg><nom>/зорка<n><f><nn><sg><nom>$ ^в<pr>/у<pr>/ва<pr>$ ^небо<n><nt><nn><sg><prp>/неба<n><nt><nn><sg><prp>$
+[/rfKRy6CyXwSF]
+[tI0USvytQHog#0] ^с<pr>/з<pr>$ ^школа<n><f><nn><sg><gen>/школа<n><f><nn><sg><gen>$
+[/tI0USvytQHog]
+[zHgHLWlGYq0p#0] ^сильный<adj><sint><m><an><sg><nom>/моцны<adj><m><an><sg><nom>$ ^удар<n><m><nn><sg><nom>/удар<n><m><nn><sg><nom>$
+[/zHgHLWlGYq0p]
