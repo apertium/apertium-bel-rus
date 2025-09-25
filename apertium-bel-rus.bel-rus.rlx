@@ -1,0 +1,194 @@
+DELIMITERS = "<.>" "<!>" "<?>" ;
+SOFT-DELIMITERS = "<,>" ;
+
+# =========================================================================== #
+
+LIST BOS = (>>>) ;
+LIST EOS = (<<<) ;
+
+# Tags
+
+LIST N = n ;
+LIST Prop = np ;
+LIST A = adj ;
+LIST Pr = pr ;
+LIST Det = det ;
+LIST Interj = ij ;
+LIST Interr = ij ;
+LIST Adv = adv ;
+LIST Num = num ;
+LIST CC = cnjcoo ;
+LIST CS = cnjsub ;
+LIST Pron = prn;
+LIST V = vblex vbser vbmod vaux  ;
+
+LIST Nom = nom ;
+LIST Gen = gen ;
+LIST Dat = dat ;
+LIST Acc = acc ;
+LIST Ins = ins ;
+LIST Loc = loc ;
+LIST Voc = voc ;
+
+LIST Sg = sg ;
+LIST Pl = pl ;
+
+LIST Fem = f ;
+LIST Masc = m ;
+LIST Neu = nt ;
+
+LIST Sg3 = (p3 sg);
+
+LIST Past = past ;
+LIST Pres = pres ;
+LIST Fut = fut ;
+
+LIST CASE = nom gen dat acc ins loc voc ;
+
+LIST GENDER = m f nt mf mfn ;
+LIST NUMBER = sg pl sp ;
+LIST ANIMAC = aa nn an ;
+
+LIST V-FIN = pres past fut imp ;
+#SET V-FIN = Pres | Past | Fut ;
+LIST V-FIN-PAST = Past ;
+
+SET Pers = (p1) | (p2) | (p3) ;
+
+SET NounMascFem = (n m) OR (n f) OR (n mfn) ;
+SET NounMascNeu = (n m) OR (n nt) OR (n mfn) ;
+SET NounFemNeu = (n f) OR (n nt) OR (n mfn) ;
+
+SET NOM-OR-GEN = Nom | Gen ;
+SET NOM-OR-ACC = Nom | Acc ;
+SET ACC-OR-GEN = Acc | Gen ;
+
+SET NOTMSC = Fem | Neu ;
+SET NOTFEM = Masc | Neu ;
+SET NOTNEU = Masc | Fem | (mf) ;
+
+SET NOTNOM = Gen | Dat | Acc | Ins | Loc | Voc ;
+SET NOTGEN = Nom | Dat | Acc | Ins | Loc | Voc ;
+SET NOTDAT = Nom | Gen | Acc | Ins | Loc | Voc ;
+SET NOTACC = Nom | Gen | Dat | Ins | Loc | Voc ;
+SET NOTINS = Nom | Gen | Dat | Acc | Loc | Voc ;
+SET NOTLOC = Nom | Gen | Dat | Acc | Ins | Voc ;
+SET NOTVOC = Nom | Gen | Dat | Acc | Ins | Loc ;
+
+SET NOTACCINS = Nom | Gen | Dat | Loc | Voc ;
+SET NOTNOMACC = Ins | Gen | Dat | Loc | Voc ;
+SET NOTNOMGEN = Ins | Acc | Dat | Loc | Voc ;
+SET NOTNOMVOC = Gen | Dat | Acc | Ins | Loc ;
+
+SET OBL    = CASE - Nom ;
+
+LIST DemPron = (prn dem) ;
+LIST PosPron = (prn pos) ;
+LIST IndPron = (prn ind) ;
+
+# Boundary sets
+
+SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
+
+LIST Nomen = top al ant cog n np prn adj det; # Words that have gender, number and case
+
+SET PRE-N =  A | Det | Num | (n gen) | (prn gen) | CC ; # Det???
+
+SET Modifier = A | Det | Num ; # Words that agree in case, number, gender with the following word.
+    # (differs from PRE-N in that it always agrees with the headword)
+    # | DemPron | PosPron | IndPron removed
+
+LIST COMMA = (",") (cm) ;
+
+LIST CMSEMIC = "," ";" ;
+SET MARK =  COMMA | ("\\") | ("\;") ; #"
+
+SET WORDMARK = WORD | MARK ;
+
+SET NPNH = WORDMARK - PRE-N ;
+SET NPNHA = WORDMARK - PRE-N - Adv ;
+SET NOT-ADV = WORDMARK - Adv ;
+
+SET NP-MEMBER = PRE-N | N | Pron ;
+
+SET NP-HEAD = N | Pron | Prop ;
+
+SET S-BOUNDARY = CS | Interr | (";") ;
+
+# =========================================================================== #
+
+SECTION
+
+SELECT Pron IF (0 ("які")) (-1 COMMA) ;
+    ## Хлопчык, які быў тут.
+
+# ===== ADJECTIVE DISAMBIGUATION RULES =====
+
+# Rule 1: Select neuter nominative for predicative adjectives after neuter nouns
+SELECT (adj nt nom) IF (-1 Adv) (-2 (n nt nom)) ;
+    ## Жыццё вельмі прыгожае. → should be neuter nominative, not feminine genitive
+
+# Rule 2: Select neuter nominative for predicative adjectives after neuter nouns (with multiple adverbs)
+SELECT (adj nt nom) IF (-1 Adv) (-2 Adv) (-3 (n nt nom)) ;
+    ## Жыццё проста вельмі прыгожае. → handle double adverbs
+
+# Rule 3: Remove feminine genitive reading when we have neuter noun context
+REMOVE (adj f gen) IF (-1 Adv) (-2 (n nt nom)) ;
+    ## Жыццё вельмі прыгожае. → remove wrong feminine genitive reading
+
+# Rule 4: Remove feminine genitive reading with double adverbs
+REMOVE (adj f gen) IF (-1 Adv) (-2 Adv) (-3 (n nt nom)) ;
+    ## Жыццё проста вельмі прыгожае. → remove wrong feminine genitive with double adverbs
+
+# Rule 5: General rule - select nominative for predicative adjectives (after adverb)
+SELECT (adj nt nom) IF (-1 Adv) (-2C (n nt)) ;
+    ## General pattern: neuter noun + adverb + adjective should be nominative
+
+# Rule 6: Remove genitive readings for predicative adjectives
+REMOVE (adj nt gen) IF (-1 Adv) (-2C (n nt nom)) ;
+    ## Remove genitive readings for predicative adjectives after neuter nominative nouns
+
+# ===== PLURAL DISAMBIGUATION RULES =====
+
+# Rule 7: Select plural nominative for nouns when followed by plural nominative adjectives
+SELECT (n pl nom) IF (1 Adv) (2 (adj pl nom)) ;
+    ## Мовы вельмі прыгожыя. → prefer plural nominative noun when adjective is plural nominative
+
+# Rule 8: Remove singular genitive reading when we have plural nominative adjective context
+REMOVE (n sg gen) IF (1 Adv) (2 (adj pl nom)) ;
+    ## Мовы вельмі прыгожыя. → remove wrong singular genitive reading
+
+# Rule 9: Select plural nominative for nouns with determiner + adverb + plural adjective
+SELECT (n pl nom) IF (-1 Det) (1 Adv) (2 (adj pl nom)) ;
+    ## Гэтыя мовы вельмі прыгожыя. → handle determiner + noun + adv + adj pattern
+
+# Rule 10: Remove singular genitive with determiner context
+REMOVE (n sg gen) IF (-1 Det) (1 Adv) (2 (adj pl nom)) ;
+    ## Гэтыя мовы вельмі прыгожыя. → remove wrong singular genitive with determiner
+
+# ===== COORDINATION AGREEMENT RULES =====
+
+# Rule 11: Select nominative for coordinated adjectives after conjunction
+SELECT (adj nt nom) IF (-1 CC) (-2 (adj nt nom)) ;
+    ## прыгожае і цікавае → both adjectives should be neuter nominative
+
+# Rule 12: Remove genitive reading for coordinated adjectives  
+REMOVE (adj f gen) IF (-1 CC) (-2 (adj nt nom)) ;
+    ## прыгожае і цікавае → remove wrong feminine genitive from second adjective
+
+# Rule 13: Select matching gender for coordinated adjectives (general rule)
+SELECT (adj m nom) IF (-1 CC) (-2 (adj m nom)) ;
+    ## красивый и интересный → both masculine nominative
+
+# Rule 14: Select matching gender for coordinated adjectives (feminine)
+SELECT (adj f nom) IF (-1 CC) (-2 (adj f nom)) ;
+    ## красивая и интересная → both feminine nominative
+
+# Rule 15: Select matching number for coordinated adjectives (plural)
+SELECT (adj pl nom) IF (-1 CC) (-2 (adj pl nom)) ;
+    ## красивые и интересные → both plural nominative
+
+# Rule 16: Remove wrong case for coordinated adjectives 
+REMOVE (adj gen) IF (-1 CC) (-2 (adj nom)) ;
+    ## Remove genitive readings when first adjective is nominative
+
