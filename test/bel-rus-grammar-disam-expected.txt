@@ -1,0 +1,30 @@
+[0vFNegjzV-Eo#0] ^Ён/Ён<prn><pers><p3><m><sg><nom>$ ^чытае/*чытае$ ^кнігу/кніга<n><f><nn><sg><acc>$^./.<sent>$
+[/0vFNegjzV-Eo]
+[12JJMxrTWPVR#0] ^Я/Я<prn><pers><p1><mf><sg><nom>$ ^была/быць<vblex><impf><past><f><sg>$ ^дома/дома<adv>/дом¹<n><m><nn><sg><gen>$^./.<sent>$
+[/12JJMxrTWPVR]
+[1FJuwXXBW3ri#0] ^Мы/Мы<prn><pers><p1><mf><pl><nom>$ ^былі/быць<vblex><impf><past><mfn><pl>/быль<n><f><nn><sg><loc>/быль<n><f><nn><sg><gen>/быль<n><f><nn><sg><dat>/быль<n><f><nn><pl><nom>/быль<n><f><nn><pl><acc>$ ^дома/дома<adv>/дом¹<n><m><nn><sg><gen>$^./.<sent>$
+[/1FJuwXXBW3ri]
+[7pgXkP3ofPMU#0] ^Чырвоныя/Чырвоны<adj><mfn><an><pl><nom>/Чырвоны<adj><mfn><nn><pl><acc>$ ^машыны/машына<n><f><nn><sg><gen>/машына<n><f><nn><pl><nom>/машына<n><f><nn><pl><acc>$ ^стаяць/стаяць<vblex><impf><inf>/стаяць<vblex><impf><pres><p3><pl>$ ^ля/ля<pr>/ля<n><nt><nn><sg><nom>/ля<n><nt><nn><sg><acc>/ля<n><nt><nn><sg><ins>/ля<n><nt><nn><sg><loc>/ля<n><nt><nn><sg><gen>/ля<n><nt><nn><sg><dat>/ля<n><nt><nn><pl><nom>/ля<n><nt><nn><pl><acc>/ля<n><nt><nn><pl><ins>/ля<n><nt><nn><pl><loc>/ля<n><nt><nn><pl><gen>/ля<n><nt><nn><pl><dat>$ ^дома/дома<adv>/дом¹<n><m><nn><sg><gen>$^./.<sent>$
+[/7pgXkP3ofPMU]
+[ATueNEDQQhYq#0] ^Мы/Мы<prn><pers><p1><mf><pl><nom>$ ^чытаем/*чытаем$ ^кнігі/кніга<n><f><nn><sg><gen>/кніга<n><f><nn><pl><nom>/кніга<n><f><nn><pl><acc>$^./.<sent>$
+[/ATueNEDQQhYq]
+[AglaGdngg87-#0] ^Яны/Ян<np><ant><m><pl><nom>/Яны<prn><pers><p3><mfn><pl><nom>$ ^былі/быць<vblex><impf><past><mfn><pl>/быль<n><f><nn><sg><loc>/быль<n><f><nn><sg><gen>/быль<n><f><nn><sg><dat>/быль<n><f><nn><pl><nom>/быль<n><f><nn><pl><acc>$ ^дома/дома<adv>/дом¹<n><m><nn><sg><gen>$^./.<sent>$
+[/AglaGdngg87-]
+[BKBKMRLKxQtD#0] ^Я/Я<prn><pers><p1><mf><sg><nom>$ ^быў/быць<vblex><impf><past><m><sg>$ ^дома/дома<adv>/дом¹<n><m><nn><sg><gen>$^./.<sent>$
+[/BKBKMRLKxQtD]
+[J5f8K83Rdf6d#0] ^Вялікі/Вялікі<adj><m><an><sg><nom>/Вялікі<adj><m><nn><sg><acc>$ ^дом/дом¹<n><m><nn><sg><nom>/дом¹<n><m><nn><sg><acc>/дом²<n><m><nn><sg><nom>/дом²<n><m><nn><sg><acc>$ ^стаіць/стаяць<vblex><impf><pres><p3><sg>$ ^на/на<pr>$ ^вуліцы/вуліца<n><f><nn><sg><loc>/вуліца<n><f><nn><sg><gen>/вуліца<n><f><nn><sg><dat>/вуліца<n><f><nn><pl><nom>/вуліца<n><f><nn><pl><acc>$^./.<sent>$
+[/J5f8K83Rdf6d]
+[JOoj5-Qab2s0#0] ^Чырвоная/Чырвоны<adj><f><an><sg><nom>$ ^машына/машына<n><f><nn><sg><nom>$ ^стаіць/стаяць<vblex><impf><pres><p3><sg>$ ^ля/ля<pr>/ля<n><nt><nn><sg><nom>/ля<n><nt><nn><sg><acc>/ля<n><nt><nn><sg><ins>/ля<n><nt><nn><sg><loc>/ля<n><nt><nn><sg><gen>/ля<n><nt><nn><sg><dat>/ля<n><nt><nn><pl><nom>/ля<n><nt><nn><pl><acc>/ля<n><nt><nn><pl><ins>/ля<n><nt><nn><pl><loc>/ля<n><nt><nn><pl><gen>/ля<n><nt><nn><pl><dat>$ ^дома/дома<adv>/дом¹<n><m><nn><sg><gen>$^./.<sent>$
+[/JOoj5-Qab2s0]
+[Lyv6gUdZadkc#0] ^Яна/Ян<np><ant><m><sg><acc>/Ян<np><ant><m><sg><gen>/Яна<prn><pers><p3><f><sg><nom>$ ^чытае/*чытае$ ^кнігу/кніга<n><f><nn><sg><acc>$^./.<sent>$
+[/Lyv6gUdZadkc]
+[RKjQ19qLRDXL#0] ^Яны/Ян<np><ant><m><pl><nom>/Яны<prn><pers><p3><mfn><pl><nom>$ ^чытаюць/*чытаюць$ ^кнігі/кніга<n><f><nn><sg><gen>/кніга<n><f><nn><pl><nom>/кніга<n><f><nn><pl><acc>$^./.<sent>$
+[/RKjQ19qLRDXL]
+[W2PN89_IuKs4#0] ^Вы/Вы<prn><pers><p2><mf><sg><nom>/Вы<prn><pers><p2><mf><pl><nom>$ ^чытаеце/*чытаеце$ ^кнігі/кніга<n><f><nn><sg><gen>/кніга<n><f><nn><pl><nom>/кніга<n><f><nn><pl><acc>$^./.<sent>$
+[/W2PN89_IuKs4]
+[gc01k6qOm2AX#0] ^Я/Я<prn><pers><p1><mf><sg><nom>$ ^чытаю/*чытаю$ ^кнігу/кніга<n><f><nn><sg><acc>$^./.<sent>$
+[/gc01k6qOm2AX]
+[oWYsrSd8fh9s#0] ^Вялікія/Вялікі<adj><mfn><an><pl><nom>/Вялікі<adj><mfn><nn><pl><acc>$ ^дамы/дама<n><f><aa><sg><gen>/дама<n><f><aa><pl><nom>/дом²<n><m><nn><pl><nom>/дом²<n><m><nn><pl><acc>/дом¹<n><m><nn><pl><nom>/дом¹<n><m><nn><pl><acc>$ ^стаяць/стаяць<vblex><impf><inf>/стаяць<vblex><impf><pres><p3><pl>$ ^на/на<pr>$ ^вуліцы/вуліца<n><f><nn><sg><loc>/вуліца<n><f><nn><sg><gen>/вуліца<n><f><nn><sg><dat>/вуліца<n><f><nn><pl><nom>/вуліца<n><f><nn><pl><acc>$^./.<sent>$
+[/oWYsrSd8fh9s]
+[t09M5lUtwWCt#0] ^Ты/Ты<prn><pers><p2><mf><sg><nom>$ ^чытаеш/*чытаеш$ ^кнігу/кніга<n><f><nn><sg><acc>$^./.<sent>$
+[/t09M5lUtwWCt]

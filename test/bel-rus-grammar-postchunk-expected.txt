@@ -1,0 +1,30 @@
+[0vFNegjzV-Eo#0] ^Он<prn><pers><p3><m><sg><nom>$ ^*чытае$ ^книга<n><f><nn><sg><acc>$^.<sent>$
+[/0vFNegjzV-Eo]
+[12JJMxrTWPVR#0] ^Я<prn><pers><p1><mf><sg><nom>$ ^быть<vbser><past><f><sg>$ ^дома<adv>$^.<sent>$
+[/12JJMxrTWPVR]
+[1FJuwXXBW3ri#0] ^Мы<prn><pers><p1><mf><pl><nom>$ ^быть<vbser><past><mfn><pl>$ ^дома<adv>$^.<sent>$
+[/1FJuwXXBW3ri]
+[7pgXkP3ofPMU#0] ^Красный<adj><sint><mfn><an><pl><nom>$ ^машина<n><f><nn><sg><gen>$ ^стоять<vblex><impf><iv><inf>$ ^у<pr>$ ^дома<adv>$^.<sent>$
+[/7pgXkP3ofPMU]
+[ATueNEDQQhYq#0] ^Мы<prn><pers><p1><mf><pl><nom>$ ^*чытаем$ ^книга<n><f><nn><sg><gen>$^.<sent>$
+[/ATueNEDQQhYq]
+[AglaGdngg87-#0] ^Ян<np><ant><m><pl><nom>$ ^быть<vbser><past><mfn><pl>$ ^дома<adv>$^.<sent>$
+[/AglaGdngg87-]
+[BKBKMRLKxQtD#0] ^Я<prn><pers><p1><mf><sg><nom>$ ^быть<vbser><past><m><sg>$ ^дома<adv>$^.<sent>$
+[/BKBKMRLKxQtD]
+[J5f8K83Rdf6d#0] ^Большой<adj><sint><m><an><sg><nom>$ ^дом<n><m><nn><sg><nom>$ ^стоять<vblex><impf><iv><pres><p3><sg>$ ^на<pr>$ ^улица<n><f><nn><sg><prp>$^.<sent>$
+[/J5f8K83Rdf6d]
+[JOoj5-Qab2s0#0] ^Красный<adj><sint><f><an><sg><nom>$ ^машина<n><f><nn><sg><nom>$ ^стоять<vblex><impf><iv><pres><p3><sg>$ ^у<pr>$ ^дома<adv>$^.<sent>$
+[/JOoj5-Qab2s0]
+[Lyv6gUdZadkc#0] ^Ян<np><ant><m><sg><acc>$ ^*чытае$ ^книга<n><f><nn><sg><acc>$^.<sent>$
+[/Lyv6gUdZadkc]
+[RKjQ19qLRDXL#0] ^Ян<np><ant><m><pl><nom>$ ^*чытаюць$ ^книга<n><f><nn><sg><gen>$^.<sent>$
+[/RKjQ19qLRDXL]
+[W2PN89_IuKs4#0] ^Вы<prn><pers><p2><mf><sg><nom>$ ^*чытаеце$ ^книга<n><f><nn><sg><gen>$^.<sent>$
+[/W2PN89_IuKs4]
+[gc01k6qOm2AX#0] ^Я<prn><pers><p1><mf><sg><nom>$ ^*чытаю$ ^книга<n><f><nn><sg><acc>$^.<sent>$
+[/gc01k6qOm2AX]
+[oWYsrSd8fh9s#0] ^Большой<adj><sint><mfn><an><pl><nom>$ ^дама<n><f><aa><sg><gen>$ ^стоять<vblex><impf><iv><inf>$ ^на<pr>$ ^улица<n><f><nn><sg><prp>$^.<sent>$
+[/oWYsrSd8fh9s]
+[t09M5lUtwWCt#0] ^Ты<prn><pers><p2><mf><sg><nom>$ ^*чытаеш$ ^книга<n><f><nn><sg><acc>$^.<sent>$
+[/t09M5lUtwWCt]

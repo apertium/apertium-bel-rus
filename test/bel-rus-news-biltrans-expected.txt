@@ -1,0 +1,20 @@
+[8_u1x0t9WsS0#0] ^*Эвалдас/*Эвалдас$ ^*Ігнатавічус/*Ігнатавічус$ ^запрасіць<vblex><perf><pp><pasv><m><an><sg><nom>/пригласить<vblex><perf><tv><pp><pasv><m><an><sg><nom>$ ^асабіста<adv>/лично<adv>$ ^наведаць<vblex><perf><inf>/посетить<vblex><perf><tv><inf>$ ^будаўнічы<adj><f><an><sg><acc>/строительный<adj><sint><f><an><sg><acc>$ ^пляцоўка<n><f><nn><sg><acc>/площадка<n><f><nn><sg><acc>$^.<sent>/.<sent>$
+[/8_u1x0t9WsS0]
+[DsajLxl8jy0R#0] ^Чыноўнік<n><m><aa><sg><nom>/Чиновник<n><m><aa><sg><nom>$ ^адзначыць<vblex><perf><past><m><sg>/отметить<vblex><perf><tv><past><m><sg>$^,<cm>/,<cm>$ ^што<cnjsub>/что<cnjsub>$ ^вынік<n><m><nn><pl><nom>/результат<n><m><nn><pl><nom>$ ^стрэс<n><m><nn><sg><nom>/стресс<n><m><nn><sg><nom>$-^тэст<n><m><nn><pl><gen>/тест<n><m><nn><pl><gen>$ ^быць<vblex><impf><fut><p3><pl>/быть<vbser><fut><p3><pl>$ ^апублікаваць<vblex><perf><pp><pasv><mfn><an><pl><nom>/опубликовать<vblex><perf><tv><pp><pasv><mfn><an><pl><nom>$^.<sent>/.<sent>$
+[/DsajLxl8jy0R]
+[Iurg_rbTRtOr#0] ^*Амбасадара/*Амбасадара$ ^Літва<np><top><f><sg><gen>/Литва<np><top><f><sg><gen>$ ^паклікаць<vblex><perf><past><mfn><pl>/позвать<vblex><perf><tv><past><mfn><pl>$ ^на<pr>/на<pr>$ ^будоўля<n><f><nn><sg><acc>/стройка<n><f><nn><sg><acc>$ ^*Астравецкай/*Астравецкай$ ^АЭС<np><al><f><sg><nom>/АЭС<np><al><f><sg><nom>$
+[/Iurg_rbTRtOr]
+[MjUWLb-q8Tvq#0] ^Літва<np><top><f><sg><nom>/Литва<np><top><f><sg><nom>$ ^не<ij>/не<adv>/нет<ij>$ ^*мерыцца/*мерыцца$ ^*купляць/*купляць$ ^*электраэнэргію/*электраэнэргію$ ^з<pr>/с<pr>$ ^Беларуска<n><f><aa><sg><ins>/Белоруска<n><f><aa><sg><ins>$ ^АЭС<np><al><f><sg><nom>/АЭС<np><al><f><sg><nom>$^.<sent>/.<sent>$
+[/MjUWLb-q8Tvq]
+[VAXa8Tag6lJd#0] ^Кіраўнік<n><m><aa><sg><loc>/Глава<n><m><aa><sg><loc>$ ^літоўскі<adj><f><an><sg><ins>/литовский<adj><f><an><sg><ins>$ ^*дыпмісіі/*дыпмісіі$ ^дэталёва<adv>/детально<adv>$ ^растлумачыць<vblex><perf><past><mfn><pl>/объяснить<vblex><perf><tv><past><mfn><pl>$ ^*існасць/*існасць$ ^*інцыдэнту/*інцыдэнту$^.<sent>/.<sent>$
+[/VAXa8Tag6lJd]
+[fbzAFgERvoPV#0] ^Міністэрства<n><nt><nn><sg><nom>/Министерство<n><nt><nn><sg><nom>$ ^замежны<adj><mfn><an><pl><loc>/иностранный<adj><sint><mfn><an><pl><loc>$ ^справа<n><f><nn><pl><gen>/дело<n><nt><nn><pl><gen>$ ^Літва<np><top><f><sg><gen>/Литва<np><top><f><sg><gen>$ ^*ўручыла/*ўручыла$ ^*амбасадару/*амбасадару$ ^Беларусь<np><top><f><sg><loc>/Беларусь<np><top><f><sg><loc>$ ^*ноту/*ноту$^.<sent>/.<sent>$
+[/fbzAFgERvoPV]
+[lQJUMoY-HwuY#0] ^Станцыя<n><f><nn><sg><nom>/Станция<n><f><nn><sg><nom>$ ^быць<vblex><impf><fut><p3><sg>/быть<vbser><fut><p3><sg>$ ^складацца<vblex><impf><inf>/состоять<vblex><impf><iv><inf>$ ^з<pr>/с<pr>$ ^два<num><m><an><sg><loc>/два<num><m><an><sg><loc>$ ^*энэргаблокаў/*энэргаблокаў$^.<sent>/.<sent>$
+[/lQJUMoY-HwuY]
+[qGbec7UZPI2q#0] ^*Закрэўскі/*Закрэўскі$ ^*заявіў/*заявіў$^,<cm>/,<cm>$ ^што<cnjsub>/что<cnjsub>$ ^для<pr>/для<pr>$ ^беларуска<n><f><aa><sg><ins>/белоруска<n><f><aa><sg><ins>$ ^старана<n><f><nn><sg><gen>/сторона<n><f><nn><sg><gen>$ ^строгі<adj><f><an><sg><gen>/строгий<adj><sint><f><an><sg><gen>$ ^выкананне<n><nt><nn><sg><nom>/выполнение<n><nt><nn><sg><nom>$ ^патрабаванне<n><nt><nn><pl><gen>/требование<n><nt><nn><pl><gen>$ ^бяспека<n><f><nn><sg><gen>/безопасность<n><f><nn><sg><gen>$ ^з<pr>/с<pr>$'^*яўляецца/*яўляецца$ ^прыярытэт<n><m><nn><sg><ins>/приоритет<n><m><nn><sg><ins>$^.<sent>/.<sent>$
+[/qGbec7UZPI2q]
+[tYUQ2X0HiXD2#0] ^Літоўскі<adj><m><an><sg><nom>/Литовский<adj><m><an><sg><nom>$ ^дыпламат<n><m><aa><sg><nom>/дипломат<n><m><aa><sg><nom>$ ^сустрэцца<vblex><perf><past><m><sg>/встретиться<vblex><perf><iv><past><m><sg>$ ^6<num>/6<num>$ ^*траўня/*траўня$ ^з<pr>/с<pr>$ ^намеснік<n><m><aa><sg><ins>/заместитель<n><m><aa><sg><ins>$ ^міністр<n><m><aa><sg><acc>/министр<n><m><aa><sg><acc>$ ^*энэргетыкі/*энэргетыкі$ ^Беларусь<np><top><f><sg><loc>/Беларусь<np><top><f><sg><loc>$^.<sent>/.<sent>$
+[/tYUQ2X0HiXD2]
+[vtht1Gpybd3B#0] ^Беларускі<adj><f><an><sg><nom>/Белорусский<adj><f><an><sg><nom>$ ^АЭС<np><al><f><sg><nom>/АЭС<np><al><f><sg><nom>$ ^*будуецца/*будуецца$ ^у<pr>/в<pr>$ ^*Гарадзенскай/*Гарадзенскай$ ^вобласць<n><f><nn><sg><loc>/область<n><f><nn><sg><loc>$^.<sent>/.<sent>$
+[/vtht1Gpybd3B]

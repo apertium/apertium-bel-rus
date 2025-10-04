@@ -1,0 +1,20 @@
+[8_u1x0t9WsS0#0] ^*Эвалдас$ ^*Ігнатавічус$ ^запрасіць<vblex><perf><pp><pasv><m><an><sg><nom>$ ^асабіста<adv>$ ^наведаць<vblex><perf><inf>$ ^будаўнічы<adj><f><an><sg><acc>$ ^пляцоўка<n><f><nn><sg><acc>$^.<sent>$
+[/8_u1x0t9WsS0]
+[DsajLxl8jy0R#0] ^Чыноўнік<n><m><aa><sg><nom>$ ^адзначыць<vblex><perf><past><m><sg>$^,<cm>$ ^што<cnjsub>$ ^вынік<n><m><nn><pl><nom>$ ^стрэс<n><m><nn><sg><nom>$-^тэст<n><m><nn><pl><gen>$ ^быць<vblex><impf><fut><p3><pl>$ ^апублікаваць<vblex><perf><pp><pasv><mfn><an><pl><nom>$^.<sent>$
+[/DsajLxl8jy0R]
+[Iurg_rbTRtOr#0] ^*Амбасадара$ ^Літва<np><top><f><sg><gen>$ ^паклікаць<vblex><perf><past><mfn><pl>$ ^на<pr>$ ^будоўля<n><f><nn><sg><acc>$ ^*Астравецкай$ ^АЭС<np><al><f><sg><nom>$
+[/Iurg_rbTRtOr]
+[MjUWLb-q8Tvq#0] ^Літва<np><top><f><sg><nom>$ ^не<ij>$ ^*мерыцца$ ^*купляць$ ^*электраэнэргію$ ^з<pr>$ ^Беларуска<n><f><aa><sg><ins>$ ^АЭС<np><al><f><sg><nom>$^.<sent>$
+[/MjUWLb-q8Tvq]
+[VAXa8Tag6lJd#0] ^Кіраўнік<n><m><aa><sg><loc>$ ^літоўскі<adj><f><an><sg><ins>$ ^*дыпмісіі$ ^дэталёва<adv>$ ^растлумачыць<vblex><perf><past><mfn><pl>$ ^*існасць$ ^*інцыдэнту$^.<sent>$
+[/VAXa8Tag6lJd]
+[fbzAFgERvoPV#0] ^Міністэрства<n><nt><nn><sg><nom>$ ^замежны<adj><mfn><an><pl><loc>$ ^справа<n><f><nn><pl><gen>$ ^Літва<np><top><f><sg><gen>$ ^*ўручыла$ ^*амбасадару$ ^Беларусь<np><top><f><sg><loc>$ ^*ноту$^.<sent>$
+[/fbzAFgERvoPV]
+[lQJUMoY-HwuY#0] ^Станцыя<n><f><nn><sg><nom>$ ^быць<vblex><impf><fut><p3><sg>$ ^складацца<vblex><impf><inf>$ ^з<pr>$ ^два<num><m><an><sg><loc>$ ^*энэргаблокаў$^.<sent>$
+[/lQJUMoY-HwuY]
+[qGbec7UZPI2q#0] ^*Закрэўскі$ ^*заявіў$^,<cm>$ ^што<cnjsub>$ ^для<pr>$ ^беларуска<n><f><aa><sg><ins>$ ^старана<n><f><nn><sg><gen>$ ^строгі<adj><f><an><sg><gen>$ ^выкананне<n><nt><nn><sg><nom>$ ^патрабаванне<n><nt><nn><pl><gen>$ ^бяспека<n><f><nn><sg><gen>$ ^з<pr>$'^*яўляецца$ ^прыярытэт<n><m><nn><sg><ins>$^.<sent>$
+[/qGbec7UZPI2q]
+[tYUQ2X0HiXD2#0] ^Літоўскі<adj><m><an><sg><nom>$ ^дыпламат<n><m><aa><sg><nom>$ ^сустрэцца<vblex><perf><past><m><sg>$ ^6<num>$ ^*траўня$ ^з<pr>$ ^намеснік<n><m><aa><sg><ins>$ ^міністр<n><m><aa><sg><acc>$ ^*энэргетыкі$ ^Беларусь<np><top><f><sg><loc>$^.<sent>$
+[/tYUQ2X0HiXD2]
+[vtht1Gpybd3B#0] ^Беларускі<adj><f><an><sg><nom>$ ^АЭС<np><al><f><sg><nom>$ ^*будуецца$ ^у<pr>$ ^*Гарадзенскай$ ^вобласць<n><f><nn><sg><loc>$^.<sent>$
+[/vtht1Gpybd3B]

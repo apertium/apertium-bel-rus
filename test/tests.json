@@ -2,5 +2,29 @@
     "rus-bel-pending": {
         "input": "rus-bel-pending-input.txt",
         "mode": "rus-bel"
+    },
+    "rus-bel-basic": {
+        "input": "rus-bel-basic-input.txt",
+        "mode": "rus-bel"
+    },
+    "rus-bel-news": {
+        "input": "rus-bel-news-input.txt",
+        "mode": "rus-bel"
+    },
+    "rus-bel-grammar": {
+        "input": "rus-bel-grammar-input.txt",
+        "mode": "rus-bel"
+    },
+    "bel-rus-basic": {
+        "input": "bel-rus-basic-input.txt",
+        "mode": "bel-rus"
+    },
+    "bel-rus-news": {
+        "input": "bel-rus-news-input.txt",
+        "mode": "bel-rus"
+    },
+    "bel-rus-grammar": {
+        "input": "bel-rus-grammar-input.txt",
+        "mode": "bel-rus"
     }
 }

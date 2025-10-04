@@ -1,0 +1,36 @@
+[4--ADMNYun1M#0] ^з/з<pr>$ ^братам/брат<n><m><aa><sg><ins>/брат<n><m><aa><pl><dat>$
+[/4--ADMNYun1M]
+[79DoDB3Y_Pzk#0] ^з/з<pr>$ ^зброяй/зброя<n><f><nn><sg><ins>$
+[/79DoDB3Y_Pzk]
+[89KHRRGRFDfm#0] ^Я/Я<prn><pers><p1><mf><sg><nom>$ ^ўпала/упасці<vblex><perf><past><f><sg>/упасці<vblex><perf><past><nt><sg>$ ^ў/у<pr>$ ^доме/дом¹<n><m><nn><sg><loc>/дом²<n><m><nn><sg><loc>$^./.<sent>$
+[/89KHRRGRFDfm]
+[EFk9DahI7wZq#0] ^Яна/Ян<np><ant><m><sg><acc>/Ян<np><ant><m><sg><gen>/Яна<prn><pers><p3><f><sg><nom>$ ^ўпала/упасці<vblex><perf><past><f><sg>/упасці<vblex><perf><past><nt><sg>$ ^ў/у<pr>$ ^доме/дом¹<n><m><nn><sg><loc>/дом²<n><m><nn><sg><loc>$^./.<sent>$
+[/EFk9DahI7wZq]
+[I1JCxc-94dnQ#0] ^нада/над<pr>$ ^мной/я<prn><pers><p1><mf><sg><ins>$
+[/I1JCxc-94dnQ]
+[I4Ophkb0vEHQ#0] ^Я/Я<prn><pers><p1><mf><sg><nom>$ ^была/быць<vblex><impf><past><f><sg>$ ^ў/у<pr>$ ^доме/дом¹<n><m><nn><sg><loc>/дом²<n><m><nn><sg><loc>$^./.<sent>$
+[/I4Ophkb0vEHQ]
+[J1haNmPkyRiD#0] ^Дзень/Дзень<n><m><nn><sg><nom>/Дзень<n><m><nn><sg><acc>$ ^незалежнасці/незалежнасць<n><f><nn><sg><loc>/незалежнасць<n><f><nn><sg><gen>/незалежнасць<n><f><nn><sg><dat>/незалежнасць<n><f><nn><pl><nom>/незалежнасць<n><f><nn><pl><acc>$ ^Украіны/Украіна<np><top><f><sg><gen>$
+[/J1haNmPkyRiD]
+[JDIvpf_lUNl-#0] ^перада/*перада$ ^мной/я<prn><pers><p1><mf><sg><ins>$
+[/JDIvpf_lUNl-]
+[UCEKj7maz3Ik#0] ^са/з<pr>$ ^мной/я<prn><pers><p1><mf><sg><ins>$
+[/UCEKj7maz3Ik]
+[VyRRwFfyzwhu#0] ^зорка/зорка<adv>/зорка<n><f><nn><sg><nom>$ ^ў/у<pr>$ ^небе/неба<n><nt><nn><sg><loc>$
+[/VyRRwFfyzwhu]
+[ZAT5V3mzToDi#0] ^пра/пра<pr>$ ^мяне/я<prn><pers><p1><mf><sg><acc>/я<prn><pers><p1><mf><sg><gen>$
+[/ZAT5V3mzToDi]
+[bgtJ3t_ajw1J#0] ^Яна/Ян<np><ant><m><sg><acc>/Ян<np><ant><m><sg><gen>/Яна<prn><pers><p3><f><sg><nom>$ ^была/быць<vblex><impf><past><f><sg>$ ^ў/у<pr>$ ^доме/дом¹<n><m><nn><sg><loc>/дом²<n><m><nn><sg><loc>$^./.<sent>$
+[/bgtJ3t_ajw1J]
+[di3XvsoZqf1w#0] ^з/з<pr>$ ^мяне/я<prn><pers><p1><mf><sg><acc>/я<prn><pers><p1><mf><sg><gen>$
+[/di3XvsoZqf1w]
+[f-ypmaT5ZLoS#0] ^у/у<pr>$ ^універсітэце/універсітэт<n><m><nn><sg><loc>$
+[/f-ypmaT5ZLoS]
+[hxvmvgRjztfX#0] ^Ён/Ён<prn><pers><p3><m><sg><nom>$ ^быў/быць<vblex><impf><past><m><sg>$ ^у/у<pr>$ ^доме/дом¹<n><m><nn><sg><loc>/дом²<n><m><nn><sg><loc>$^./.<sent>$
+[/hxvmvgRjztfX]
+[o68R5KU7fMxF#0] ^са/з<pr>$ ^школы/школа<n><f><nn><sg><gen>/школа<n><f><nn><pl><nom>/школа<n><f><nn><pl><acc>$
+[/o68R5KU7fMxF]
+[rdDFGDmgxXKn#0] ^Газета/Газета<n><f><nn><sg><nom>$ "^Праўда/Праўда<n><f><nn><sg><nom>$" ^аднавіла/*аднавіла$ ^публікацыю/публікацыя<n><f><nn><sg><acc>$^./.<sent>$
+[/rdDFGDmgxXKn]
+[tvw9_ILX1DO9#0] ^моцны/моцны<adj><m><an><sg><nom>/моцны<adj><m><nn><sg><acc>$ ^ўдар/удар<n><m><nn><sg><nom>/удар<n><m><nn><sg><acc>$
+[/tvw9_ILX1DO9]
