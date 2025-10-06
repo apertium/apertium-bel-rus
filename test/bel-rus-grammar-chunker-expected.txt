@@ -1,0 +1,30 @@
+[0vFNegjzV-Eo#0] ^prn<PRN>{^Он<prn><pers><p3><m><sg><nom>$}$ ^unknown<unknown>{^*чытае$}$ ^n<SN>{^книга<n><f><nn><sg><acc>$}$^default<default>{^.<sent>$}$
+[/0vFNegjzV-Eo]
+[12JJMxrTWPVR#0] ^prn<PRN>{^Я<prn><pers><p1><mf><sg><nom>$}$ ^vb<SV>{^быть<vbser><past><f><sg>$}$ ^default<default>{^дома<adv>$}$^default<default>{^.<sent>$}$
+[/12JJMxrTWPVR]
+[1FJuwXXBW3ri#0] ^prn<PRN>{^Мы<prn><pers><p1><mf><pl><nom>$}$ ^vb<SV>{^быть<vbser><past><mfn><pl>$}$ ^default<default>{^дома<adv>$}$^default<default>{^.<sent>$}$
+[/1FJuwXXBW3ri]
+[7pgXkP3ofPMU#0] ^adj_det_n<SN>{^Красный<adj><sint><mfn><an><pl><nom>$ ^машина<n><f><nn><sg><gen>$}$ ^vb<SV>{^стоять<vblex><impf><iv><inf>$}$ ^default<default>{^у<pr>$}$ ^default<default>{^дома<adv>$}$^default<default>{^.<sent>$}$
+[/7pgXkP3ofPMU]
+[ATueNEDQQhYq#0] ^prn<PRN>{^Мы<prn><pers><p1><mf><pl><nom>$}$ ^unknown<unknown>{^*чытаем$}$ ^n<SN>{^книга<n><f><nn><sg><gen>$}$^default<default>{^.<sent>$}$
+[/ATueNEDQQhYq]
+[AglaGdngg87-#0] ^np<SN>{^Ян<np><ant><m><pl><nom>$}$ ^vb<SV>{^быть<vbser><past><mfn><pl>$}$ ^default<default>{^дома<adv>$}$^default<default>{^.<sent>$}$
+[/AglaGdngg87-]
+[BKBKMRLKxQtD#0] ^prn<PRN>{^Я<prn><pers><p1><mf><sg><nom>$}$ ^vb<SV>{^быть<vbser><past><m><sg>$}$ ^default<default>{^дома<adv>$}$^default<default>{^.<sent>$}$
+[/BKBKMRLKxQtD]
+[J5f8K83Rdf6d#0] ^adj_det_n<SN>{^Большой<adj><sint><m><an><sg><nom>$ ^дом<n><m><nn><sg><nom>$}$ ^vb<SV>{^стоять<vblex><impf><iv><pres><p3><sg>$}$ ^default<default>{^на<pr>$}$ ^n<SN>{^улица<n><f><nn><sg><prp>$}$^default<default>{^.<sent>$}$
+[/J5f8K83Rdf6d]
+[JOoj5-Qab2s0#0] ^adj_det_n<SN>{^Красный<adj><sint><f><an><sg><nom>$ ^машина<n><f><nn><sg><nom>$}$ ^vb<SV>{^стоять<vblex><impf><iv><pres><p3><sg>$}$ ^default<default>{^у<pr>$}$ ^default<default>{^дома<adv>$}$^default<default>{^.<sent>$}$
+[/JOoj5-Qab2s0]
+[Lyv6gUdZadkc#0] ^np<SN>{^Ян<np><ant><m><sg><acc>$}$ ^unknown<unknown>{^*чытае$}$ ^n<SN>{^книга<n><f><nn><sg><acc>$}$^default<default>{^.<sent>$}$
+[/Lyv6gUdZadkc]
+[RKjQ19qLRDXL#0] ^np<SN>{^Ян<np><ant><m><pl><nom>$}$ ^unknown<unknown>{^*чытаюць$}$ ^n<SN>{^книга<n><f><nn><sg><gen>$}$^default<default>{^.<sent>$}$
+[/RKjQ19qLRDXL]
+[W2PN89_IuKs4#0] ^prn<PRN>{^Вы<prn><pers><p2><mf><sg><nom>$}$ ^unknown<unknown>{^*чытаеце$}$ ^n<SN>{^книга<n><f><nn><sg><gen>$}$^default<default>{^.<sent>$}$
+[/W2PN89_IuKs4]
+[gc01k6qOm2AX#0] ^prn<PRN>{^Я<prn><pers><p1><mf><sg><nom>$}$ ^unknown<unknown>{^*чытаю$}$ ^n<SN>{^книга<n><f><nn><sg><acc>$}$^default<default>{^.<sent>$}$
+[/gc01k6qOm2AX]
+[oWYsrSd8fh9s#0] ^adj_det_n<SN>{^Большой<adj><sint><mfn><an><pl><nom>$ ^дама<n><f><aa><sg><gen>$}$ ^vb<SV>{^стоять<vblex><impf><iv><inf>$}$ ^default<default>{^на<pr>$}$ ^n<SN>{^улица<n><f><nn><sg><prp>$}$^default<default>{^.<sent>$}$
+[/oWYsrSd8fh9s]
+[t09M5lUtwWCt#0] ^prn<PRN>{^Ты<prn><pers><p2><mf><sg><nom>$}$ ^unknown<unknown>{^*чытаеш$}$ ^n<SN>{^книга<n><f><nn><sg><acc>$}$^default<default>{^.<sent>$}$
+[/t09M5lUtwWCt]

@@ -68,6 +68,9 @@
      <cat-item tags="det"/>
      <cat-item tags="det.*"/>
   </def-cat>
+  <def-cat n="cnjcoo">
+     <cat-item tags="cnjcoo"/>
+  </def-cat>
   <def-cat n="pp_pasv">
      <cat-item tags="vblex.impf.pp.pasv.*"/>
      <cat-item tags="vbhaver.impf.pp.pasv.*"/>
@@ -620,6 +623,218 @@
       </out>
     </action>
   </rule>
+
+  <rule comment="RULE: Adjective + Noun + Adverb + Adjective (predicative agreement)">
+    <pattern>
+      <pattern-item n="adj_det"/>  <!-- Attributive adjective/determiner -->
+      <pattern-item n="nom"/>      <!-- Subject noun -->
+      <pattern-item n="adv"/>      <!-- Adverb -->
+      <pattern-item n="adj"/>      <!-- Predicative adjective -->
+    </pattern>
+    <action>
+      <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
+      <call-macro n="case_adapter1"><with-param pos="2"/></call-macro>
+      <call-macro n="case_adapter1"><with-param pos="3"/></call-macro>
+      <call-macro n="case_adapter1"><with-param pos="4"/></call-macro>
+      <!-- Transfer noun's gender to both adjectives -->
+      <call-macro n="case_adapter_n"><with-param pos="1"/><with-param pos="2"/></call-macro>
+      <call-macro n="case_adapter_n"><with-param pos="4"/><with-param pos="2"/></call-macro>
+      <out>
+        <chunk name="adj_nom_adv_adj" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="SN"/></tag>
+          </tags>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="2" side="tl" part="whole"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="3" side="tl" part="whole"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="4" side="tl" part="whole"/>
+          </lu>
+        </chunk>
+      </out>
+    </action>
+  </rule>
+
+  <rule comment="RULE: Noun + Adverb + Adverb + Adjective (predicative agreement)">
+    <pattern>
+      <pattern-item n="nom"/>     <!-- Subject noun -->
+      <pattern-item n="adv"/>     <!-- First adverb -->
+      <pattern-item n="adv"/>     <!-- Second adverb -->
+      <pattern-item n="adj"/>     <!-- Predicative adjective -->
+    </pattern>
+    <action>
+      <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
+      <call-macro n="case_adapter1"><with-param pos="2"/></call-macro>
+      <call-macro n="case_adapter1"><with-param pos="3"/></call-macro>
+      <call-macro n="case_adapter1"><with-param pos="4"/></call-macro>
+      <!-- Transfer noun's gender to adjective -->
+      <call-macro n="case_adapter_n"><with-param pos="4"/><with-param pos="1"/></call-macro>
+      <out>
+        <chunk name="nom_adv_adv_adj" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="SN"/></tag>
+          </tags>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="2" side="tl" part="whole"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="3" side="tl" part="whole"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="4" side="tl" part="whole"/>
+          </lu>
+        </chunk>
+      </out>
+    </action>
+  </rule>
+
+  <rule comment="RULE: Adjective + Noun + Adverb + Adjective + Conjunction + Adjective (attributive + predicative coordination)">
+    <pattern>
+      <pattern-item n="adj_det"/>  <!-- Attributive adjective/determiner -->
+      <pattern-item n="nom"/>      <!-- Subject noun -->
+      <pattern-item n="adv"/>      <!-- Adverb -->
+      <pattern-item n="adj"/>      <!-- First predicative adjective -->
+      <pattern-item n="cnjcoo"/>   <!-- Coordinating conjunction (і/and) -->
+      <pattern-item n="adj"/>      <!-- Second predicative adjective -->
+    </pattern>
+    <action>
+      <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
+      <call-macro n="case_adapter1"><with-param pos="2"/></call-macro>
+      <call-macro n="case_adapter1"><with-param pos="3"/></call-macro>
+      <call-macro n="case_adapter1"><with-param pos="4"/></call-macro>
+      <call-macro n="case_adapter1"><with-param pos="5"/></call-macro>
+      <call-macro n="case_adapter1"><with-param pos="6"/></call-macro>
+      <!-- Transfer noun's gender to all adjectives -->
+      <call-macro n="case_adapter_n"><with-param pos="1"/><with-param pos="2"/></call-macro>
+      <call-macro n="case_adapter_n"><with-param pos="4"/><with-param pos="2"/></call-macro>
+      <call-macro n="case_adapter_n"><with-param pos="6"/><with-param pos="2"/></call-macro>
+      <out>
+        <chunk name="adj_nom_adv_adj_conj_adj" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="SN"/></tag>
+          </tags>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="2" side="tl" part="whole"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="3" side="tl" part="whole"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="4" side="tl" part="whole"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="5" side="tl" part="whole"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="6" side="tl" part="whole"/>
+          </lu>
+        </chunk>
+      </out>
+    </action>
+  </rule>
+
+  <rule comment="RULE: Noun + Adverb + Adjective + Conjunction + Adjective (predicative coordination)">
+    <pattern>
+      <pattern-item n="nom"/>     <!-- Subject noun -->
+      <pattern-item n="adv"/>     <!-- Adverb -->
+      <pattern-item n="adj"/>     <!-- First predicative adjective -->
+      <pattern-item n="cnjcoo"/>  <!-- Coordinating conjunction (і/and) -->
+      <pattern-item n="adj"/>     <!-- Second predicative adjective -->
+    </pattern>
+    <action>
+      <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
+      <call-macro n="case_adapter1"><with-param pos="2"/></call-macro>
+      <call-macro n="case_adapter1"><with-param pos="3"/></call-macro>
+      <call-macro n="case_adapter1"><with-param pos="4"/></call-macro>
+      <call-macro n="case_adapter1"><with-param pos="5"/></call-macro>
+      <!-- Transfer noun's gender to both adjectives -->
+      <call-macro n="case_adapter_n"><with-param pos="3"/><with-param pos="1"/></call-macro>
+      <call-macro n="case_adapter_n"><with-param pos="5"/><with-param pos="1"/></call-macro>
+      <out>
+        <chunk name="nom_adv_adj_conj_adj" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="SN"/></tag>
+          </tags>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="2" side="tl" part="whole"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="3" side="tl" part="whole"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="4" side="tl" part="whole"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="5" side="tl" part="whole"/>
+          </lu>
+        </chunk>
+      </out>
+    </action>
+  </rule>
+
+  <rule comment="RULE: Noun + Adverb + Adjective (predicative agreement)">
+    <pattern>
+      <pattern-item n="nom"/>     <!-- Subject noun -->
+      <pattern-item n="adv"/>     <!-- Adverb -->
+      <pattern-item n="adj"/>     <!-- Predicative adjective -->
+    </pattern>
+    <action>
+      <call-macro n="case_adapter1"><with-param pos="1"/></call-macro>
+      <call-macro n="case_adapter1"><with-param pos="2"/></call-macro>
+      <call-macro n="case_adapter1"><with-param pos="3"/></call-macro>
+      <!-- Transfer noun's gender to adjective -->
+      <call-macro n="case_adapter_n"><with-param pos="3"/><with-param pos="1"/></call-macro>
+      <out>
+        <chunk name="nom_adv_adj" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="SN"/></tag>
+          </tags>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="2" side="tl" part="whole"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="3" side="tl" part="whole"/>
+          </lu>
+        </chunk>
+      </out>
+    </action>
+  </rule>
+
 </section-rules>
 
 </transfer>

@@ -1,0 +1,20 @@
+[8_u1x0t9WsS0#0] ^unknown<unknown>{^*Эвалдас$}$ ^unknown<unknown>{^*Ігнатавічус$}$ ^vb<SV>{^пригласить<vblex><perf><tv><pp><pasv><m><an><sg><nom>$}$ ^default<default>{^лично<adv>$}$ ^vb<SV>{^посетить<vblex><perf><tv><inf>$}$ ^adj_det_n<SN>{^строительный<adj><sint><f><an><sg><acc>$ ^площадка<n><f><nn><sg><acc>$}$^default<default>{^.<sent>$}$
+[/8_u1x0t9WsS0]
+[DsajLxl8jy0R#0] ^n<SN>{^Чиновник<n><m><aa><sg><nom>$}$ ^vb<SV>{^отметить<vblex><perf><tv><past><m><sg>$}$^default<default>{^,<cm>$}$ ^default<default>{^что<cnjsub>$}$ ^n<SN>{^результат<n><m><nn><pl><nom>$}$ ^n<SN>{^стресс<n><m><nn><sg><nom>$}$-^n<SN>{^тест<n><m><nn><pl><gen>$}$ ^vb<SV>{^быть<vbser><fut><p3><pl>$}$ ^vb<SV>{^опубликовать<vblex><perf><tv><pp><pasv><mfn><an><pl><nom>$}$^default<default>{^.<sent>$}$
+[/DsajLxl8jy0R]
+[Iurg_rbTRtOr#0] ^unknown<unknown>{^*Амбасадара$}$ ^np<SN>{^Литва<np><top><f><sg><gen>$}$ ^vb<SV>{^позвать<vblex><perf><tv><past><mfn><pl>$}$ ^default<default>{^на<pr>$}$ ^n<SN>{^стройка<n><f><nn><sg><acc>$}$ ^unknown<unknown>{^*Астравецкай$}$ ^np<SN>{^АЭС<np><al><f><sg><nom>$}$
+[/Iurg_rbTRtOr]
+[MjUWLb-q8Tvq#0] ^np<SN>{^Литва<np><top><f><sg><nom>$}$ ^default<default>{^не<adv>$}$ ^unknown<unknown>{^*мерыцца$}$ ^unknown<unknown>{^*купляць$}$ ^unknown<unknown>{^*электраэнэргію$}$ ^default<default>{^с<pr>$}$ ^n<SN>{^Белоруска<n><f><aa><sg><ins>$}$ ^np<SN>{^АЭС<np><al><f><sg><nom>$}$^default<default>{^.<sent>$}$
+[/MjUWLb-q8Tvq]
+[VAXa8Tag6lJd#0] ^n<SN>{^Глава<n><m><aa><sg><prp>$}$ ^adj<SA>{^литовский<adj><f><an><sg><ins>$}$ ^unknown<unknown>{^*дыпмісіі$}$ ^default<default>{^детально<adv>$}$ ^vb<SV>{^объяснить<vblex><perf><tv><past><mfn><pl>$}$ ^unknown<unknown>{^*існасць$}$ ^unknown<unknown>{^*інцыдэнту$}$^default<default>{^.<sent>$}$
+[/VAXa8Tag6lJd]
+[fbzAFgERvoPV#0] ^n<SN>{^Министерство<n><nt><nn><sg><nom>$}$ ^adj_det_n<SN>{^иностранный<adj><sint><mfn><an><pl><prp>$ ^дело<n><nt><nn><pl><gen>$}$ ^np<SN>{^Литва<np><top><f><sg><gen>$}$ ^unknown<unknown>{^*ўручыла$}$ ^unknown<unknown>{^*амбасадару$}$ ^np<SN>{^Беларусь<np><top><f><sg><prp>$}$ ^unknown<unknown>{^*ноту$}$^default<default>{^.<sent>$}$
+[/fbzAFgERvoPV]
+[lQJUMoY-HwuY#0] ^n<SN>{^Станция<n><f><nn><sg><nom>$}$ ^vb<SV>{^быть<vbser><fut><p3><sg>$}$ ^vb<SV>{^состоять<vblex><impf><iv><inf>$}$ ^default<default>{^с<pr>$}$ ^num<NUM>{^два<num><m><an><sg><prp>$}$ ^unknown<unknown>{^*энэргаблокаў$}$^default<default>{^.<sent>$}$
+[/lQJUMoY-HwuY]
+[qGbec7UZPI2q#0] ^unknown<unknown>{^*Закрэўскі$}$ ^unknown<unknown>{^*заявіў$}$^default<default>{^,<cm>$}$ ^default<default>{^что<cnjsub>$}$ ^default<default>{^для<pr>$}$ ^n<SN>{^белоруска<n><f><aa><sg><ins>$}$ ^n<SN>{^сторона<n><f><nn><sg><gen>$}$ ^adj_det_n<SN>{^строгий<adj><sint><nt><an><sg><gen>$ ^выполнение<n><nt><nn><sg><nom>$}$ ^n<SN>{^требование<n><nt><nn><pl><gen>$}$ ^n<SN>{^безопасность<n><f><nn><sg><gen>$}$ ^default<default>{^с<pr>$}$'^unknown<unknown>{^*яўляецца$}$ ^n<SN>{^приоритет<n><m><nn><sg><ins>$}$^default<default>{^.<sent>$}$
+[/qGbec7UZPI2q]
+[tYUQ2X0HiXD2#0] ^adj_det_n<SN>{^Литовский<adj><m><an><sg><nom>$ ^дипломат<n><m><aa><sg><nom>$}$ ^vb<SV>{^встретиться<vblex><perf><iv><past><m><sg>$}$ ^num<NUM>{^6<num>$}$ ^unknown<unknown>{^*траўня$}$ ^default<default>{^с<pr>$}$ ^n<SN>{^заместитель<n><m><aa><sg><ins>$}$ ^n<SN>{^министр<n><m><aa><sg><acc>$}$ ^unknown<unknown>{^*энэргетыкі$}$ ^np<SN>{^Беларусь<np><top><f><sg><prp>$}$^default<default>{^.<sent>$}$
+[/tYUQ2X0HiXD2]
+[vtht1Gpybd3B#0] ^adj_det_n<SN>{^Белорусский<adj><f><an><sg><nom>$ ^АЭС<np><al><f><sg><nom>$}$ ^unknown<unknown>{^*будуецца$}$ ^default<default>{^в<pr>$}$ ^unknown<unknown>{^*Гарадзенскай$}$ ^n<SN>{^область<n><f><nn><sg><prp>$}$^default<default>{^.<sent>$}$
+[/vtht1Gpybd3B]

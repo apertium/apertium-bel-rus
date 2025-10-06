@@ -1,0 +1,36 @@
+[4--ADMNYun1M#0] ^default<default>{^с<pr>$}$ ^n<SN>{^брат<n><m><aa><sg><ins>$}$
+[/4--ADMNYun1M]
+[79DoDB3Y_Pzk#0] ^default<default>{^с<pr>$}$ ^n<SN>{^оружие<n><nt><nn><sg><ins>$}$
+[/79DoDB3Y_Pzk]
+[89KHRRGRFDfm#0] ^prn<PRN>{^Я<prn><pers><p1><mf><sg><nom>$}$ ^vb<SV>{^упасть<vblex><perf><iv><past><f><sg>$}$ ^default<default>{^в<pr>$}$ ^n<SN>{^дом<n><m><nn><sg><prp>$}$^default<default>{^.<sent>$}$
+[/89KHRRGRFDfm]
+[EFk9DahI7wZq#0] ^np<SN>{^Ян<np><ant><m><sg><acc>$}$ ^vb<SV>{^упасть<vblex><perf><iv><past><f><sg>$}$ ^default<default>{^в<pr>$}$ ^n<SN>{^дом<n><m><nn><sg><prp>$}$^default<default>{^.<sent>$}$
+[/EFk9DahI7wZq]
+[I1JCxc-94dnQ#0] ^default<default>{^над<pr>$}$ ^prn<PRN>{^я<prn><pers><p1><mf><sg><ins>$}$
+[/I1JCxc-94dnQ]
+[I4Ophkb0vEHQ#0] ^prn<PRN>{^Я<prn><pers><p1><mf><sg><nom>$}$ ^vb<SV>{^быть<vbser><past><f><sg>$}$ ^default<default>{^в<pr>$}$ ^n<SN>{^дом<n><m><nn><sg><prp>$}$^default<default>{^.<sent>$}$
+[/I4Ophkb0vEHQ]
+[J1haNmPkyRiD#0] ^n<SN>{^День<n><m><nn><sg><nom>$}$ ^n<SN>{^независимость<n><f><nn><sg><prp>$}$ ^np<SN>{^Украина<np><top><f><sg><gen>$}$
+[/J1haNmPkyRiD]
+[JDIvpf_lUNl-#0] ^unknown<unknown>{^*перада$}$ ^prn<PRN>{^я<prn><pers><p1><mf><sg><ins>$}$
+[/JDIvpf_lUNl-]
+[UCEKj7maz3Ik#0] ^default<default>{^с<pr>$}$ ^prn<PRN>{^я<prn><pers><p1><mf><sg><ins>$}$
+[/UCEKj7maz3Ik]
+[VyRRwFfyzwhu#0] ^default<default>{^зорко<adv>$}$ ^default<default>{^в<pr>$}$ ^n<SN>{^небо<n><nt><nn><sg><prp>$}$
+[/VyRRwFfyzwhu]
+[ZAT5V3mzToDi#0] ^default<default>{^о<pr>$}$ ^prn<PRN>{^я<prn><pers><p1><mf><sg><acc>$}$
+[/ZAT5V3mzToDi]
+[bgtJ3t_ajw1J#0] ^np<SN>{^Ян<np><ant><m><sg><acc>$}$ ^vb<SV>{^быть<vbser><past><f><sg>$}$ ^default<default>{^в<pr>$}$ ^n<SN>{^дом<n><m><nn><sg><prp>$}$^default<default>{^.<sent>$}$
+[/bgtJ3t_ajw1J]
+[di3XvsoZqf1w#0] ^default<default>{^с<pr>$}$ ^prn<PRN>{^я<prn><pers><p1><mf><sg><acc>$}$
+[/di3XvsoZqf1w]
+[f-ypmaT5ZLoS#0] ^default<default>{^в<pr>$}$ ^n<SN>{^университет<n><m><nn><sg><prp>$}$
+[/f-ypmaT5ZLoS]
+[hxvmvgRjztfX#0] ^prn<PRN>{^Он<prn><pers><p3><m><sg><nom>$}$ ^vb<SV>{^быть<vbser><past><m><sg>$}$ ^default<default>{^в<pr>$}$ ^n<SN>{^дом<n><m><nn><sg><prp>$}$^default<default>{^.<sent>$}$
+[/hxvmvgRjztfX]
+[o68R5KU7fMxF#0] ^default<default>{^с<pr>$}$ ^n<SN>{^школа<n><f><nn><sg><gen>$}$
+[/o68R5KU7fMxF]
+[rdDFGDmgxXKn#0] ^n<SN>{^Газета<n><f><nn><sg><nom>$}$ "^n<SN>{^Правда<n><f><nn><sg><nom>$}$" ^unknown<unknown>{^*аднавіла$}$ ^n<SN>{^публикация<n><f><nn><sg><acc>$}$^default<default>{^.<sent>$}$
+[/rdDFGDmgxXKn]
+[tvw9_ILX1DO9#0] ^adj_det_n<SN>{^сильный<adj><sint><m><an><sg><nom>$ ^удар<n><m><nn><sg><nom>$}$
+[/tvw9_ILX1DO9]
