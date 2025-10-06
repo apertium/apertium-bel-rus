@@ -19,3 +19,4 @@
 /config
 /*.prob
 /test/*-output.txt
+/test/error.log
